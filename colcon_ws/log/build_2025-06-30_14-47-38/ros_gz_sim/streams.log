@@ -1,0 +1,10 @@
+[0.050s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim -- -j2 -l2
+[0.338s] [ 10%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[0.382s] [01m[K/home/ros25/ROS/ROS_25/colcon_ws/src/ros_gz/ros_gz_sim/src/create.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kgflags/gflags.h: 그런 파일이나 디렉터리가 없습니다
+[0.384s]    15 | #include [01;31m[K<gflags/gflags.h>[m[K
+[0.384s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.385s] compilation terminated.
+[0.391s] gmake[2]: *** [CMakeFiles/create.dir/build.make:76: CMakeFiles/create.dir/src/create.cpp.o] 오류 1
+[0.396s] gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/create.dir/all] 오류 2
+[0.400s] gmake: *** [Makefile:146: all] 오류 2
+[0.413s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim -- -j2 -l2

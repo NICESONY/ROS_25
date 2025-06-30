@@ -149,3 +149,38 @@
 [166.894s] [ 86%] Built target ament_cmake_python_build_ros_gz_interfaces_egg
 [167.126s] [ 86%] Built target ros_gz_interfaces
 [167.343s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[188.403s] [ 86%] Built target ros_gz_interfaces__py
+[188.534s] [ 86%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_altimeter_s.c.o[0m
+[189.322s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o[0m
+[189.899s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o[0m
+[190.411s] [ 87%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o[0m
+[190.949s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o[0m
+[191.431s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o[0m
+[191.916s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_wrench_s.c.o[0m
+[192.450s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o[0m
+[193.050s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o[0m
+[193.685s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o[0m
+[194.400s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o[0m
+[195.106s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_material_color_s.c.o[0m
+[195.712s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o[0m
+[196.272s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_sensor_noise_s.c.o[0m
+[196.811s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o[0m
+[197.277s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o[0m
+[197.869s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o[0m
+[198.512s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o[0m
+[199.449s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o[0m
+[200.143s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o[0m
+[200.744s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o[0m
+[201.297s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o[0m
+[201.915s] [ 97%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o[0m
+[202.468s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so[0m
+[202.837s] [ 97%] Built target ros_gz_interfaces__rosidl_generator_py
+[202.998s] [ 98%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[203.953s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[204.278s] [ 98%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[204.415s] [ 99%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[205.372s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[205.672s] [ 99%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext
+[205.830s] [100%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[206.829s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[207.085s] [100%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext

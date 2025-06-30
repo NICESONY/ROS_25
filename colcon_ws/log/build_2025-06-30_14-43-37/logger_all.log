@@ -8702,3 +8702,21 @@
 [27.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim/share/ros_gz_sim/package.bash'
 [27.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim/share/ros_gz_sim/package.zsh'
 [27.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim/share/colcon-core/packages/ros_gz_sim)
+[210.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[210.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[210.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[210.956s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[211.021s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[211.021s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[211.021s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[212.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[212.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros25/ROS/ROS_25/colcon_ws/install/local_setup.ps1'
+[212.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros25/ROS/ROS_25/colcon_ws/install/_local_setup_util_ps1.py'
+[212.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros25/ROS/ROS_25/colcon_ws/install/setup.ps1'
+[212.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros25/ROS/ROS_25/colcon_ws/install/local_setup.sh'
+[212.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros25/ROS/ROS_25/colcon_ws/install/_local_setup_util_sh.py'
+[212.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros25/ROS/ROS_25/colcon_ws/install/setup.sh'
+[212.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros25/ROS/ROS_25/colcon_ws/install/local_setup.bash'
+[212.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros25/ROS/ROS_25/colcon_ws/install/setup.bash'
+[212.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros25/ROS/ROS_25/colcon_ws/install/local_setup.zsh'
+[212.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros25/ROS/ROS_25/colcon_ws/install/setup.zsh'
