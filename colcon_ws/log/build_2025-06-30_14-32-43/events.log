@@ -1,0 +1,1330 @@
+[0.000000] (-) TimerEvent: {}
+[0.002505] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.003645] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.004769] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.004921] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.005593] (test_node) JobQueued: {'identifier': 'test_node', 'dependencies': OrderedDict()}
+[0.005677] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.005722] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.005760] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.005799] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.005837] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.005874] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.006045] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces')])}
+[0.006100] (ros_ign_gazebo) JobQueued: {'identifier': 'ros_ign_gazebo', 'dependencies': OrderedDict([('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim')])}
+[0.006146] (ros_ign_interfaces) JobQueued: {'identifier': 'ros_ign_interfaces', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces')])}
+[0.006190] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict([('turtlebot3_msgs', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs')])}
+[0.006236] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict([('turtlebot3_msgs', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs')])}
+[0.006347] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('turtlebot3_msgs', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs')])}
+[0.006464] (ros_gz_image) JobQueued: {'identifier': 'ros_gz_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge')])}
+[0.006597] (ros_ign_bridge) JobQueued: {'identifier': 'ros_ign_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge')])}
+[0.006886] (test_ros_gz_bridge) JobQueued: {'identifier': 'test_ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge')])}
+[0.006945] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('turtlebot3_description', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs'), ('turtlebot3_node', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node')])}
+[0.007000] (ros_gz_sim_demos) JobQueued: {'identifier': 'ros_gz_sim_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image')])}
+[0.007056] (ros_ign_image) JobQueued: {'identifier': 'ros_ign_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image')])}
+[0.007093] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('turtlebot3_cartographer', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs'), ('turtlebot3_navigation2', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2'), ('turtlebot3_teleop', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop'), ('turtlebot3_example', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example'), ('turtlebot3_node', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node'), ('turtlebot3_bringup', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup')])}
+[0.007156] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image')])}
+[0.007192] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim_demos')])}
+[0.007230] (ros_ign_gazebo_demos) JobQueued: {'identifier': 'ros_ign_gazebo_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim_demos')])}
+[0.007278] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'), ('turtlebot3_msgs', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('turtlebot3_fake_node', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_fake_node'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image'), ('turtlebot3_gazebo', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_gazebo')])}
+[0.007327] (ros_ign) JobQueued: {'identifier': 'ros_ign', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'), ('ros_gz_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_bridge'), ('ros_ign_gazebo', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_ign_gazebo'), ('ros_gz_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_image'), ('ros_ign_bridge', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_ign_bridge'), ('ros_gz_sim_demos', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim_demos'), ('ros_ign_image', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_ign_image'), ('ros_gz', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz'), ('ros_ign_gazebo_demos', '/home/ros25/ROS/ROS_25/colcon_ws/install/ros_ign_gazebo_demos')])}
+[0.007809] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.043642] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[0.060480] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.064435] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ros25/ROS/ROS_25/colcon_ws/src/ros_gz/ros_gz_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_interfaces'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71438'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a057ccf4-36fc-4e56-8c29-058314baf0d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[0.086892] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[0.088997] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/ros25/ROS/ROS_25/colcon_ws/src/ros_gz/ros_gz_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/ros_gz_sim'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71438'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a057ccf4-36fc-4e56-8c29-058314baf0d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[0.100699] (-) TimerEvent: {}
+[0.154856] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.157479] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201750] (-) TimerEvent: {}
+[0.305236] (-) TimerEvent: {}
+[0.407076] (-) TimerEvent: {}
+[0.510023] (-) TimerEvent: {}
+[0.578190] (ros_gz_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.610290] (-) TimerEvent: {}
+[0.624747] (ros_gz_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.646609] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.652748] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.711327] (-) TimerEvent: {}
+[0.714664] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.725490] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.744822] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.757662] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.772731] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.780892] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.809854] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.813946] (-) TimerEvent: {}
+[0.817896] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.835126] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.854867] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[0.881978] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.882389] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.910350] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.915718] (-) TimerEvent: {}
+[0.962794] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.006161] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.016711] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.017219] (-) TimerEvent: {}
+[1.120138] (-) TimerEvent: {}
+[1.222888] (-) TimerEvent: {}
+[1.323735] (-) TimerEvent: {}
+[1.425374] (ros_gz_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.426097] (-) TimerEvent: {}
+[1.526672] (-) TimerEvent: {}
+[1.625984] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.626740] (-) TimerEvent: {}
+[1.643978] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.649932] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.652109] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[1.724285] (ros_gz_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.728712] (-) TimerEvent: {}
+[1.757152] (ros_gz_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.778884] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.830797] (-) TimerEvent: {}
+[1.846178] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.931031] (-) TimerEvent: {}
+[2.022183] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.033754] (-) TimerEvent: {}
+[2.087958] (ros_gz_sim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.133941] (-) TimerEvent: {}
+[2.235987] (-) TimerEvent: {}
+[2.245264] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.249666] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[2.253114] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[2.256030] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[2.259089] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[2.269693] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.270089] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[2.328753] (ros_gz_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.331673] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.336664] (-) TimerEvent: {}
+[2.351460] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.423048] (ros_gz_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.437746] (-) TimerEvent: {}
+[2.477275] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[2.482850] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[2.491921] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[2.499821] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.538760] (-) TimerEvent: {}
+[2.602171] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[2.613841] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[2.616835] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[2.637208] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[2.639526] (-) TimerEvent: {}
+[2.642363] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[2.685818] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.690962] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[2.704713] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[2.707298] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[2.711699] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[2.719210] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[2.720635] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[2.725669] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[2.735164] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[2.737985] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[2.739838] (-) TimerEvent: {}
+[2.742927] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[2.745716] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[2.808689] (ros_gz_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.839081] (ros_gz_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.840596] (-) TimerEvent: {}
+[2.859338] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.933025] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.940950] (-) TimerEvent: {}
+[3.044018] (-) TimerEvent: {}
+[3.127170] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.130516] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[3.132653] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[3.144157] (-) TimerEvent: {}
+[3.146323] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[3.151141] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[3.155620] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[3.167099] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[3.167496] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[3.179839] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[3.198769] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[3.203947] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[3.215263] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.221864] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.227671] (ros_gz_sim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.244255] (-) TimerEvent: {}
+[3.256046] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[3.266773] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[3.269613] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[3.275751] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[3.284279] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[3.287200] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[3.289996] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.295027] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[3.304643] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[3.307899] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[3.339912] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[3.344420] (-) TimerEvent: {}
+[3.403727] (ros_gz_sim) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[3.452784] (-) TimerEvent: {}
+[3.554986] (-) TimerEvent: {}
+[3.604410] (ros_gz_sim) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[3.636026] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[3.655269] (-) TimerEvent: {}
+[3.724845] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[3.755826] (-) TimerEvent: {}
+[3.861694] (-) TimerEvent: {}
+[3.950386] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[3.962829] (-) TimerEvent: {}
+[3.971459] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[4.044879] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[4.063739] (-) TimerEvent: {}
+[4.167078] (-) TimerEvent: {}
+[4.225608] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[4.248905] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.252554] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[4.267235] (-) TimerEvent: {}
+[4.331400] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[4.367734] (-) TimerEvent: {}
+[4.468807] (-) TimerEvent: {}
+[4.538706] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[4.561722] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[4.568980] (-) TimerEvent: {}
+[4.632959] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[4.669231] (-) TimerEvent: {}
+[4.771015] (-) TimerEvent: {}
+[4.795463] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[4.811728] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[4.813526] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[4.871239] (-) TimerEvent: {}
+[4.932289] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.973120] (-) TimerEvent: {}
+[5.042730] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.075712] (-) TimerEvent: {}
+[5.141109] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.141627] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.141787] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.175887] (-) TimerEvent: {}
+[5.193683] (ros_gz_sim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[5.263371] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[5.276059] (-) TimerEvent: {}
+[5.329971] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[5.342755] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[5.348796] (ros_gz_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[5.376317] (-) TimerEvent: {}
+[5.452406] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.476843] (-) TimerEvent: {}
+[5.560151] (ros_gz_sim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[5.577494] (-) TimerEvent: {}
+[5.597540] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[5.678371] (-) TimerEvent: {}
+[5.737464] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[5.782945] (-) TimerEvent: {}
+[5.886788] (-) TimerEvent: {}
+[5.990678] (-) TimerEvent: {}
+[5.994021] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.049111] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_interfaces\n'}
+[6.081479] (ros_gz_interfaces) CommandEnded: {'returncode': 0}
+[6.085391] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'build'}
+[6.085464] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71438'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a057ccf4-36fc-4e56-8c29-058314baf0d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[6.092342] (-) TimerEvent: {}
+[6.115823] (ros_gz_sim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[6.117789] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[6.126646] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.129725] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[6.156156] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[6.159746] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[6.192528] (-) TimerEvent: {}
+[6.260980] (ros_gz_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[6.291460] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.292436] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[6.292756] (-) TimerEvent: {}
+[6.294855] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[6.297241] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[6.306655] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[6.308991] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[6.312144] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.314832] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[6.316323] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[6.357370] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[6.360401] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[6.398266] (-) TimerEvent: {}
+[6.410621] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[6.414775] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[6.417651] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.418033] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.439850] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.484982] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[6.494045] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[6.494504] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[6.502674] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.503031] (-) TimerEvent: {}
+[6.503802] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[6.504105] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[6.508777] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[6.509391] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[6.509504] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[6.519603] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[6.524649] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[6.535663] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[6.550844] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.603559] (-) TimerEvent: {}
+[6.716415] (-) TimerEvent: {}
+[6.764034] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[6.771052] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[6.771424] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.771588] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[6.771737] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[6.780853] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[6.790896] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[6.799362] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[6.799825] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[6.808665] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[6.818067] (-) TimerEvent: {}
+[6.822485] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[6.839663] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[6.840090] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[6.840232] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[6.863705] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[6.868440] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[6.868829] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[6.890845] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[6.895668] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[6.918826] (-) TimerEvent: {}
+[6.966709] (ros_gz_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[6.972689] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.973097] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[6.977673] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[6.978957] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[6.982657] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[6.982936] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[6.992652] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[7.001789] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[7.007296] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[7.014744] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[7.019168] (-) TimerEvent: {}
+[7.029857] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[7.034775] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[7.042722] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[7.063855] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[7.069688] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[7.076807] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[7.094214] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[7.100663] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[7.107773] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[7.119093] (-) TimerEvent: {}
+[7.125472] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[7.128745] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[7.135644] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[7.157640] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[7.160517] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[7.166129] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[7.187295] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[7.196832] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[7.203657] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[7.219255] (-) TimerEvent: {}
+[7.225649] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[7.227635] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[7.231997] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[7.251694] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[7.252231] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[7.252383] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[7.266705] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[7.287802] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[7.294821] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[7.296170] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[7.303857] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[7.320833] (-) TimerEvent: {}
+[7.321653] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[7.325793] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[7.332434] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[7.334799] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[7.352398] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[7.360625] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[7.370785] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[7.387671] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[7.389738] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[7.394477] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[7.414197] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[7.417908] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[7.418307] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[7.420995] (-) TimerEvent: {}
+[7.424429] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[7.445311] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[7.445788] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[7.455775] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[7.460091] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[7.483823] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[7.489067] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[7.489489] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[7.501057] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[7.504044] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.521673] (-) TimerEvent: {}
+[7.527710] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[7.602424] (ros_gz_sim) StdoutLine: {'line': b'-- Compiling against Gazebo Fortress\n'}
+[7.623715] (-) TimerEvent: {}
+[7.631189] (ros_gz_sim) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake/ignition-cmake2/cmake2/IgnUtils.cmake:197 (find_package):\n'}
+[7.631778] (ros_gz_sim) StderrLine: {'line': b'  By not providing "Findgflags.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[7.632029] (ros_gz_sim) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "gflags", but\n'}
+[7.632261] (ros_gz_sim) StderrLine: {'line': b'  CMake did not find one.\n'}
+[7.632850] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.633332] (ros_gz_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "gflags" with any\n'}
+[7.635442] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gflags - not found\n'}
+[7.635718] (ros_gz_sim) StdoutLine: {'line': b'\n'}
+[7.635857] (ros_gz_sim) StderrLine: {'line': b'  of the following names:\n'}
+[7.635980] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.636094] (ros_gz_sim) StderrLine: {'line': b'    gflagsConfig.cmake\n'}
+[7.636204] (ros_gz_sim) StderrLine: {'line': b'    gflags-config.cmake\n'}
+[7.636348] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.636599] (ros_gz_sim) StderrLine: {'line': b'  Add the installation prefix of "gflags" to CMAKE_PREFIX_PATH or set\n'}
+[7.636752] (ros_gz_sim) StderrLine: {'line': b'  "gflags_DIR" to a directory containing one of the above files.  If "gflags"\n'}
+[7.636876] (ros_gz_sim) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[7.636993] (ros_gz_sim) StderrLine: {'line': b'  installed.\n'}
+[7.637099] (ros_gz_sim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.637202] (ros_gz_sim) StderrLine: {'line': b'  CMakeLists.txt:94 (ign_find_package)\n'}
+[7.637337] (ros_gz_sim) StderrLine: {'line': b'  CMakeLists.txt:98 (gz_find_package)\n'}
+[7.637466] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.640667] (ros_gz_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[7.691186] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.724675] (-) TimerEvent: {}
+[7.827933] (-) TimerEvent: {}
+[7.930739] (-) TimerEvent: {}
+[8.031553] (-) TimerEvent: {}
+[8.132646] (-) TimerEvent: {}
+[8.236018] (-) TimerEvent: {}
+[8.310962] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[8.333866] (ros_gz_sim) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[8.337675] (-) TimerEvent: {}
+[8.406756] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.412191] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.414680] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros25/ROS/ROS_25/colcon_ws/src/ros_gz/ros_gz_sim/include>\n'}
+[8.415132] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.418706] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.419193] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.428655] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.432070] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.434413] (ros_gz_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.435512] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.437798] (-) TimerEvent: {}
+[8.442208] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.540927] (-) TimerEvent: {}
+[8.541902] (ros_gz_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[8.587450] (ros_gz_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim\n'}
+[8.644778] (-) TimerEvent: {}
+[8.693110] (ros_gz_sim) CommandEnded: {'returncode': 0}
+[8.698832] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'build'}
+[8.707398] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim', '--', '-j2', '-l2'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '71438'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a057ccf4-36fc-4e56-8c29-058314baf0d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/ros_gz_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[8.747742] (-) TimerEvent: {}
+[8.853755] (-) TimerEvent: {}
+[8.958149] (-) TimerEvent: {}
+[9.059173] (-) TimerEvent: {}
+[9.164741] (-) TimerEvent: {}
+[9.275755] (-) TimerEvent: {}
+[9.382743] (-) TimerEvent: {}
+[9.483527] (-) TimerEvent: {}
+[9.594733] (ros_gz_sim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_sim.dir/src/Stopwatch.cpp.o\x1b[0m\n'}
+[9.595305] (-) TimerEvent: {}
+[9.689947] (ros_gz_sim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o\x1b[0m\n'}
+[9.707828] (-) TimerEvent: {}
+[9.811087] (-) TimerEvent: {}
+[9.913948] (-) TimerEvent: {}
+[9.950609] (ros_gz_sim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros25/ROS/ROS_25/colcon_ws/src/ros_gz/ros_gz_sim/src/create.cpp:15:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgflags/gflags.h: \xea\xb7\xb8\xeb\x9f\xb0 \xed\x8c\x8c\xec\x9d\xbc\xec\x9d\xb4\xeb\x82\x98 \xeb\x94\x94\xeb\xa0\x89\xed\x84\xb0\xeb\xa6\xac\xea\xb0\x80 \xec\x97\x86\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4\n'}
+[9.955351] (ros_gz_sim) StderrLine: {'line': b'   15 | #include \x1b[01;31m\x1b[K<gflags/gflags.h>\x1b[m\x1b[K\n'}
+[9.956425] (ros_gz_sim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.958791] (ros_gz_sim) StderrLine: {'line': b'compilation terminated.\n'}
+[9.970812] (ros_gz_sim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/create.dir/build.make:76: CMakeFiles/create.dir/src/create.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[9.979739] (ros_gz_sim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/create.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[9.980380] (ros_gz_sim) StderrLine: {'line': b'gmake[1]: *** \xeb\x81\x9d\xeb\x82\x98\xec\xa7\x80 \xec\x95\x8a\xec\x9d\x80 \xec\x9e\x91\xec\x97\x85\xec\x9d\x84 \xea\xb8\xb0\xeb\x8b\xa4\xeb\xa6\xac\xea\xb3\xa0 \xec\x9e\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4....\n'}
+[10.014738] (-) TimerEvent: {}
+[10.116519] (-) TimerEvent: {}
+[10.221359] (-) TimerEvent: {}
+[10.327786] (-) TimerEvent: {}
+[10.430738] (-) TimerEvent: {}
+[10.534812] (-) TimerEvent: {}
+[10.639168] (-) TimerEvent: {}
+[10.751758] (-) TimerEvent: {}
+[10.858748] (-) TimerEvent: {}
+[10.963765] (-) TimerEvent: {}
+[11.071787] (-) TimerEvent: {}
+[11.177759] (-) TimerEvent: {}
+[11.281344] (-) TimerEvent: {}
+[11.388340] (-) TimerEvent: {}
+[11.492023] (-) TimerEvent: {}
+[11.595749] (-) TimerEvent: {}
+[11.700746] (-) TimerEvent: {}
+[11.801870] (-) TimerEvent: {}
+[11.906271] (-) TimerEvent: {}
+[12.011773] (-) TimerEvent: {}
+[12.120753] (-) TimerEvent: {}
+[12.221517] (-) TimerEvent: {}
+[12.327744] (-) TimerEvent: {}
+[12.430754] (-) TimerEvent: {}
+[12.536735] (-) TimerEvent: {}
+[12.640739] (-) TimerEvent: {}
+[12.745761] (-) TimerEvent: {}
+[12.849342] (-) TimerEvent: {}
+[12.953689] (-) TimerEvent: {}
+[13.058793] (-) TimerEvent: {}
+[13.162757] (-) TimerEvent: {}
+[13.266765] (-) TimerEvent: {}
+[13.367530] (-) TimerEvent: {}
+[13.476759] (-) TimerEvent: {}
+[13.577540] (-) TimerEvent: {}
+[13.681761] (-) TimerEvent: {}
+[13.789761] (-) TimerEvent: {}
+[13.896782] (-) TimerEvent: {}
+[13.997674] (-) TimerEvent: {}
+[14.101256] (-) TimerEvent: {}
+[14.205896] (-) TimerEvent: {}
+[14.315376] (-) TimerEvent: {}
+[14.431750] (-) TimerEvent: {}
+[14.536702] (-) TimerEvent: {}
+[14.637764] (-) TimerEvent: {}
+[14.745106] (-) TimerEvent: {}
+[14.851750] (-) TimerEvent: {}
+[14.957772] (-) TimerEvent: {}
+[15.061405] (-) TimerEvent: {}
+[15.167933] (-) TimerEvent: {}
+[15.270708] (-) TimerEvent: {}
+[15.378375] (-) TimerEvent: {}
+[15.481797] (-) TimerEvent: {}
+[15.592484] (-) TimerEvent: {}
+[15.695763] (-) TimerEvent: {}
+[15.801722] (-) TimerEvent: {}
+[15.905725] (-) TimerEvent: {}
+[16.012903] (-) TimerEvent: {}
+[16.125757] (-) TimerEvent: {}
+[16.227763] (-) TimerEvent: {}
+[16.333228] (-) TimerEvent: {}
+[16.441262] (-) TimerEvent: {}
+[16.547713] (-) TimerEvent: {}
+[16.650757] (-) TimerEvent: {}
+[16.756762] (-) TimerEvent: {}
+[16.864162] (-) TimerEvent: {}
+[16.972760] (-) TimerEvent: {}
+[17.078755] (-) TimerEvent: {}
+[17.183464] (-) TimerEvent: {}
+[17.292806] (-) TimerEvent: {}
+[17.393755] (-) TimerEvent: {}
+[17.499450] (-) TimerEvent: {}
+[17.605792] (-) TimerEvent: {}
+[17.710754] (-) TimerEvent: {}
+[17.820764] (-) TimerEvent: {}
+[17.922733] (-) TimerEvent: {}
+[18.029259] (-) TimerEvent: {}
+[18.137271] (-) TimerEvent: {}
+[18.240756] (-) TimerEvent: {}
+[18.343750] (-) TimerEvent: {}
+[18.450933] (-) TimerEvent: {}
+[18.557787] (-) TimerEvent: {}
+[18.659070] (-) TimerEvent: {}
+[18.763766] (-) TimerEvent: {}
+[18.864877] (-) TimerEvent: {}
+[18.972762] (-) TimerEvent: {}
+[19.076446] (-) TimerEvent: {}
+[19.179789] (-) TimerEvent: {}
+[19.292764] (-) TimerEvent: {}
+[19.394750] (-) TimerEvent: {}
+[19.497748] (-) TimerEvent: {}
+[19.601769] (-) TimerEvent: {}
+[19.706744] (-) TimerEvent: {}
+[19.811757] (-) TimerEvent: {}
+[19.912549] (-) TimerEvent: {}
+[20.016795] (-) TimerEvent: {}
+[20.131815] (-) TimerEvent: {}
+[20.232729] (-) TimerEvent: {}
+[20.338759] (-) TimerEvent: {}
+[20.441803] (-) TimerEvent: {}
+[20.548138] (ros_gz_sim) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_sim.so\x1b[0m\n'}
+[20.548764] (-) TimerEvent: {}
+[20.651790] (-) TimerEvent: {}
+[20.758727] (-) TimerEvent: {}
+[20.862040] (-) TimerEvent: {}
+[20.967751] (-) TimerEvent: {}
+[21.070746] (-) TimerEvent: {}
+[21.174964] (-) TimerEvent: {}
+[21.275561] (-) TimerEvent: {}
+[21.384768] (-) TimerEvent: {}
+[21.486758] (-) TimerEvent: {}
+[21.589258] (-) TimerEvent: {}
+[21.693750] (-) TimerEvent: {}
+[21.797165] (-) TimerEvent: {}
+[21.902058] (-) TimerEvent: {}
+[22.007058] (-) TimerEvent: {}
+[22.100476] (ros_gz_sim) StdoutLine: {'line': b'[ 30%] Built target ros_gz_sim\n'}
+[22.107267] (ros_gz_sim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[22.110291] (-) TimerEvent: {}
+[22.148749] (ros_gz_sim) CommandEnded: {'returncode': 2}
+[22.211911] (-) TimerEvent: {}
+[22.273758] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 2}
+[22.317831] (-) TimerEvent: {}
+[22.420352] (-) TimerEvent: {}
+[22.523517] (-) TimerEvent: {}
+[22.624969] (-) TimerEvent: {}
+[22.727730] (-) TimerEvent: {}
+[22.829787] (-) TimerEvent: {}
+[22.933138] (-) TimerEvent: {}
+[23.034758] (-) TimerEvent: {}
+[23.138095] (-) TimerEvent: {}
+[23.239309] (-) TimerEvent: {}
+[23.340749] (-) TimerEvent: {}
+[23.443632] (-) TimerEvent: {}
+[23.544667] (-) TimerEvent: {}
+[23.647434] (-) TimerEvent: {}
+[23.748913] (-) TimerEvent: {}
+[23.852797] (-) TimerEvent: {}
+[23.954499] (-) TimerEvent: {}
+[24.057058] (-) TimerEvent: {}
+[24.160209] (-) TimerEvent: {}
+[24.263231] (-) TimerEvent: {}
+[24.365942] (-) TimerEvent: {}
+[24.468419] (-) TimerEvent: {}
+[24.572057] (-) TimerEvent: {}
+[24.674919] (-) TimerEvent: {}
+[24.776458] (-) TimerEvent: {}
+[24.879159] (-) TimerEvent: {}
+[24.981800] (-) TimerEvent: {}
+[25.085343] (-) TimerEvent: {}
+[25.188240] (-) TimerEvent: {}
+[25.290826] (-) TimerEvent: {}
+[25.393227] (-) TimerEvent: {}
+[25.497902] (-) TimerEvent: {}
+[25.600127] (-) TimerEvent: {}
+[25.702991] (-) TimerEvent: {}
+[25.806198] (-) TimerEvent: {}
+[25.909345] (-) TimerEvent: {}
+[26.012865] (-) TimerEvent: {}
+[26.115114] (-) TimerEvent: {}
+[26.219293] (-) TimerEvent: {}
+[26.320875] (-) TimerEvent: {}
+[26.423139] (-) TimerEvent: {}
+[26.525956] (-) TimerEvent: {}
+[26.629095] (-) TimerEvent: {}
+[26.732489] (-) TimerEvent: {}
+[26.834157] (-) TimerEvent: {}
+[26.937704] (-) TimerEvent: {}
+[27.039266] (-) TimerEvent: {}
+[27.148844] (-) TimerEvent: {}
+[27.251250] (-) TimerEvent: {}
+[27.353830] (-) TimerEvent: {}
+[27.456262] (-) TimerEvent: {}
+[27.563728] (-) TimerEvent: {}
+[27.666412] (-) TimerEvent: {}
+[27.768807] (-) TimerEvent: {}
+[27.871984] (-) TimerEvent: {}
+[27.973540] (-) TimerEvent: {}
+[28.076357] (-) TimerEvent: {}
+[28.180301] (-) TimerEvent: {}
+[28.285897] (-) TimerEvent: {}
+[28.298740] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] Built target ros_gz_interfaces__cpp\n'}
+[28.386171] (-) TimerEvent: {}
+[28.487154] (-) TimerEvent: {}
+[28.536092] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__functions.c.o\x1b[0m\n'}
+[28.587381] (-) TimerEvent: {}
+[28.688804] (-) TimerEvent: {}
+[28.768233] (ros_gz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o\x1b[0m\n'}
+[28.789052] (-) TimerEvent: {}
+[28.892509] (-) TimerEvent: {}
+[28.972146] (ros_gz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o\x1b[0m\n'}
+[28.993016] (-) TimerEvent: {}
+[29.093707] (-) TimerEvent: {}
+[29.144656] (ros_gz_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o\x1b[0m\n'}
+[29.194815] (-) TimerEvent: {}
+[29.296321] (-) TimerEvent: {}
+[29.329447] (ros_gz_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[29.396624] (-) TimerEvent: {}
+[29.498137] (-) TimerEvent: {}
+[29.512726] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o\x1b[0m\n'}
+[29.598675] (-) TimerEvent: {}
+[29.701797] (-) TimerEvent: {}
+[29.722751] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__functions.c.o\x1b[0m\n'}
+[29.802025] (-) TimerEvent: {}
+[29.902788] (-) TimerEvent: {}
+[30.004902] (-) TimerEvent: {}
+[30.010182] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o\x1b[0m\n'}
+[30.105149] (-) TimerEvent: {}
+[30.206453] (-) TimerEvent: {}
+[30.216819] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o\x1b[0m\n'}
+[30.306767] (-) TimerEvent: {}
+[30.409806] (-) TimerEvent: {}
+[30.465085] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o\x1b[0m\n'}
+[30.510105] (-) TimerEvent: {}
+[30.611557] (-) TimerEvent: {}
+[30.667048] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o\x1b[0m\n'}
+[30.712938] (-) TimerEvent: {}
+[30.813930] (-) TimerEvent: {}
+[30.867965] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__functions.c.o\x1b[0m\n'}
+[30.914780] (-) TimerEvent: {}
+[31.015943] (-) TimerEvent: {}
+[31.073444] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o\x1b[0m\n'}
+[31.116793] (-) TimerEvent: {}
+[31.218862] (-) TimerEvent: {}
+[31.268761] (ros_gz_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__functions.c.o\x1b[0m\n'}
+[31.319099] (-) TimerEvent: {}
+[31.420556] (-) TimerEvent: {}
+[31.442034] (ros_gz_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o\x1b[0m\n'}
+[31.520452] (-) TimerEvent: {}
+[31.612250] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o\x1b[0m\n'}
+[31.620742] (-) TimerEvent: {}
+[31.722247] (-) TimerEvent: {}
+[31.798146] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o\x1b[0m\n'}
+[31.822485] (-) TimerEvent: {}
+[31.923941] (-) TimerEvent: {}
+[31.978758] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o\x1b[0m\n'}
+[32.025748] (-) TimerEvent: {}
+[32.129059] (-) TimerEvent: {}
+[32.173948] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o\x1b[0m\n'}
+[32.230830] (-) TimerEvent: {}
+[32.325900] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o\x1b[0m\n'}
+[32.331799] (-) TimerEvent: {}
+[32.432957] (-) TimerEvent: {}
+[32.535086] (-) TimerEvent: {}
+[32.537138] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o\x1b[0m\n'}
+[32.635506] (-) TimerEvent: {}
+[32.737041] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o\x1b[0m\n'}
+[32.737751] (-) TimerEvent: {}
+[32.839765] (-) TimerEvent: {}
+[32.940743] (-) TimerEvent: {}
+[32.951286] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o\x1b[0m\n'}
+[33.041078] (-) TimerEvent: {}
+[33.142752] (-) TimerEvent: {}
+[33.167761] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[33.244453] (-) TimerEvent: {}
+[33.348123] (-) TimerEvent: {}
+[33.365148] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] Built target ros_gz_interfaces__rosidl_generator_c\n'}
+[33.448986] (-) TimerEvent: {}
+[33.484957] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_symlink_ros_gz_interfaces\n'}
+[33.539354] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[33.549389] (-) TimerEvent: {}
+[33.650759] (-) TimerEvent: {}
+[33.752456] (-) TimerEvent: {}
+[33.853439] (-) TimerEvent: {}
+[33.954342] (-) TimerEvent: {}
+[34.055243] (-) TimerEvent: {}
+[34.156155] (-) TimerEvent: {}
+[34.257837] (-) TimerEvent: {}
+[34.360303] (-) TimerEvent: {}
+[34.461730] (-) TimerEvent: {}
+[34.563357] (-) TimerEvent: {}
+[34.664371] (-) TimerEvent: {}
+[34.765248] (-) TimerEvent: {}
+[34.866935] (-) TimerEvent: {}
+[34.969342] (-) TimerEvent: {}
+[35.071246] (-) TimerEvent: {}
+[35.177909] (-) TimerEvent: {}
+[35.279776] (-) TimerEvent: {}
+[35.381661] (-) TimerEvent: {}
+[35.483445] (-) TimerEvent: {}
+[35.585682] (-) TimerEvent: {}
+[35.686762] (-) TimerEvent: {}
+[35.787771] (-) TimerEvent: {}
+[35.888684] (-) TimerEvent: {}
+[35.990675] (-) TimerEvent: {}
+[36.093342] (-) TimerEvent: {}
+[36.194254] (-) TimerEvent: {}
+[36.295888] (-) TimerEvent: {}
+[36.397443] (-) TimerEvent: {}
+[36.498505] (-) TimerEvent: {}
+[36.600302] (-) TimerEvent: {}
+[36.701347] (-) TimerEvent: {}
+[36.802382] (-) TimerEvent: {}
+[36.903424] (-) TimerEvent: {}
+[37.004559] (-) TimerEvent: {}
+[37.105708] (-) TimerEvent: {}
+[37.207103] (-) TimerEvent: {}
+[37.308268] (-) TimerEvent: {}
+[37.409474] (-) TimerEvent: {}
+[37.510703] (-) TimerEvent: {}
+[37.611849] (-) TimerEvent: {}
+[37.712812] (-) TimerEvent: {}
+[37.814009] (-) TimerEvent: {}
+[37.915044] (-) TimerEvent: {}
+[38.016860] (-) TimerEvent: {}
+[38.119441] (-) TimerEvent: {}
+[38.221289] (-) TimerEvent: {}
+[38.323798] (-) TimerEvent: {}
+[38.425240] (-) TimerEvent: {}
+[38.528551] (-) TimerEvent: {}
+[38.630892] (-) TimerEvent: {}
+[38.644353] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/altimeter__type_support.cpp.o\x1b[0m\n'}
+[38.731850] (-) TimerEvent: {}
+[38.833404] (-) TimerEvent: {}
+[38.934405] (-) TimerEvent: {}
+[39.035457] (-) TimerEvent: {}
+[39.136841] (-) TimerEvent: {}
+[39.237826] (-) TimerEvent: {}
+[39.339234] (-) TimerEvent: {}
+[39.444772] (-) TimerEvent: {}
+[39.498376] (ros_gz_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[39.545909] (-) TimerEvent: {}
+[39.646962] (-) TimerEvent: {}
+[39.748054] (-) TimerEvent: {}
+[39.849407] (-) TimerEvent: {}
+[39.950404] (-) TimerEvent: {}
+[40.052254] (-) TimerEvent: {}
+[40.153486] (-) TimerEvent: {}
+[40.256704] (-) TimerEvent: {}
+[40.304371] (ros_gz_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[40.358117] (-) TimerEvent: {}
+[40.461785] (-) TimerEvent: {}
+[40.562972] (-) TimerEvent: {}
+[40.663955] (-) TimerEvent: {}
+[40.767412] (-) TimerEvent: {}
+[40.871527] (-) TimerEvent: {}
+[40.976248] (-) TimerEvent: {}
+[41.078042] (-) TimerEvent: {}
+[41.155482] (ros_gz_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[41.178914] (-) TimerEvent: {}
+[41.281833] (-) TimerEvent: {}
+[41.384738] (-) TimerEvent: {}
+[41.486550] (-) TimerEvent: {}
+[41.590967] (-) TimerEvent: {}
+[41.692689] (-) TimerEvent: {}
+[41.793737] (-) TimerEvent: {}
+[41.895745] (-) TimerEvent: {}
+[41.918984] (ros_gz_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[41.996008] (-) TimerEvent: {}
+[42.100166] (-) TimerEvent: {}
+[42.201245] (-) TimerEvent: {}
+[42.302538] (-) TimerEvent: {}
+[42.404220] (-) TimerEvent: {}
+[42.504930] (-) TimerEvent: {}
+[42.605268] (ros_gz_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[42.607104] (-) TimerEvent: {}
+[42.708157] (-) TimerEvent: {}
+[42.808838] (-) TimerEvent: {}
+[42.910361] (-) TimerEvent: {}
+[43.011120] (-) TimerEvent: {}
+[43.112081] (-) TimerEvent: {}
+[43.213902] (-) TimerEvent: {}
+[43.284227] (ros_gz_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[43.313712] (-) TimerEvent: {}
+[43.415560] (-) TimerEvent: {}
+[43.516317] (-) TimerEvent: {}
+[43.619461] (-) TimerEvent: {}
+[43.720705] (-) TimerEvent: {}
+[43.821820] (-) TimerEvent: {}
+[43.924283] (-) TimerEvent: {}
+[44.023260] (ros_gz_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[44.024424] (-) TimerEvent: {}
+[44.126212] (-) TimerEvent: {}
+[44.227847] (-) TimerEvent: {}
+[44.330440] (-) TimerEvent: {}
+[44.431495] (-) TimerEvent: {}
+[44.532925] (-) TimerEvent: {}
+[44.634410] (-) TimerEvent: {}
+[44.729282] (ros_gz_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[44.734586] (-) TimerEvent: {}
+[44.835436] (-) TimerEvent: {}
+[44.937203] (-) TimerEvent: {}
+[45.038646] (-) TimerEvent: {}
+[45.139329] (-) TimerEvent: {}
+[45.240264] (-) TimerEvent: {}
+[45.341388] (-) TimerEvent: {}
+[45.442803] (-) TimerEvent: {}
+[45.468045] (ros_gz_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[45.543964] (-) TimerEvent: {}
+[45.646348] (-) TimerEvent: {}
+[45.748317] (-) TimerEvent: {}
+[45.849504] (-) TimerEvent: {}
+[45.950491] (-) TimerEvent: {}
+[46.052783] (-) TimerEvent: {}
+[46.153554] (-) TimerEvent: {}
+[46.169257] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[46.255856] (-) TimerEvent: {}
+[46.357462] (-) TimerEvent: {}
+[46.458626] (-) TimerEvent: {}
+[46.560744] (-) TimerEvent: {}
+[46.662082] (-) TimerEvent: {}
+[46.763162] (-) TimerEvent: {}
+[46.864840] (-) TimerEvent: {}
+[46.938367] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/material_color__type_support.cpp.o\x1b[0m\n'}
+[46.965753] (-) TimerEvent: {}
+[47.067822] (-) TimerEvent: {}
+[47.169443] (-) TimerEvent: {}
+[47.271786] (-) TimerEvent: {}
+[47.372886] (-) TimerEvent: {}
+[47.473948] (-) TimerEvent: {}
+[47.575277] (-) TimerEvent: {}
+[47.678554] (-) TimerEvent: {}
+[47.711374] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[47.779979] (-) TimerEvent: {}
+[47.882679] (-) TimerEvent: {}
+[47.983543] (-) TimerEvent: {}
+[48.085144] (-) TimerEvent: {}
+[48.187400] (-) TimerEvent: {}
+[48.288688] (-) TimerEvent: {}
+[48.389975] (-) TimerEvent: {}
+[48.493198] (-) TimerEvent: {}
+[48.499242] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[48.593465] (-) TimerEvent: {}
+[48.697102] (-) TimerEvent: {}
+[48.800270] (-) TimerEvent: {}
+[48.901804] (-) TimerEvent: {}
+[49.003282] (-) TimerEvent: {}
+[49.106791] (-) TimerEvent: {}
+[49.207979] (-) TimerEvent: {}
+[49.214400] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[49.308335] (-) TimerEvent: {}
+[49.409257] (-) TimerEvent: {}
+[49.510800] (-) TimerEvent: {}
+[49.612116] (-) TimerEvent: {}
+[49.714120] (-) TimerEvent: {}
+[49.816448] (-) TimerEvent: {}
+[49.918066] (-) TimerEvent: {}
+[49.965369] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[50.018941] (-) TimerEvent: {}
+[50.121352] (-) TimerEvent: {}
+[50.223042] (-) TimerEvent: {}
+[50.323919] (-) TimerEvent: {}
+[50.425301] (-) TimerEvent: {}
+[50.526538] (-) TimerEvent: {}
+[50.633217] (-) TimerEvent: {}
+[50.705397] (ros_gz_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[50.733987] (-) TimerEvent: {}
+[50.835077] (-) TimerEvent: {}
+[50.936159] (-) TimerEvent: {}
+[51.038226] (-) TimerEvent: {}
+[51.140012] (-) TimerEvent: {}
+[51.241200] (-) TimerEvent: {}
+[51.342315] (-) TimerEvent: {}
+[51.407120] (ros_gz_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[51.443774] (-) TimerEvent: {}
+[51.545836] (-) TimerEvent: {}
+[51.647685] (-) TimerEvent: {}
+[51.748824] (-) TimerEvent: {}
+[51.849875] (-) TimerEvent: {}
+[51.951022] (-) TimerEvent: {}
+[52.052251] (-) TimerEvent: {}
+[52.118147] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[52.152531] (-) TimerEvent: {}
+[52.253994] (-) TimerEvent: {}
+[52.355964] (-) TimerEvent: {}
+[52.458684] (-) TimerEvent: {}
+[52.560067] (-) TimerEvent: {}
+[52.661839] (-) TimerEvent: {}
+[52.763088] (-) TimerEvent: {}
+[52.843064] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[52.863323] (-) TimerEvent: {}
+[52.965775] (-) TimerEvent: {}
+[53.066918] (-) TimerEvent: {}
+[53.168476] (-) TimerEvent: {}
+[53.270282] (-) TimerEvent: {}
+[53.372083] (-) TimerEvent: {}
+[53.473283] (-) TimerEvent: {}
+[53.574525] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[53.576667] (-) TimerEvent: {}
+[53.678232] (-) TimerEvent: {}
+[53.780169] (-) TimerEvent: {}
+[53.881558] (-) TimerEvent: {}
+[53.982524] (-) TimerEvent: {}
+[54.085005] (-) TimerEvent: {}
+[54.186652] (-) TimerEvent: {}
+[54.287542] (-) TimerEvent: {}
+[54.352142] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[54.387820] (-) TimerEvent: {}
+[54.490406] (-) TimerEvent: {}
+[54.591849] (-) TimerEvent: {}
+[54.693256] (-) TimerEvent: {}
+[54.796734] (-) TimerEvent: {}
+[54.898209] (-) TimerEvent: {}
+[54.999208] (-) TimerEvent: {}
+[55.101125] (-) TimerEvent: {}
+[55.109063] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[55.201422] (-) TimerEvent: {}
+[55.303817] (-) TimerEvent: {}
+[55.405832] (-) TimerEvent: {}
+[55.508426] (-) TimerEvent: {}
+[55.611742] (-) TimerEvent: {}
+[55.713945] (-) TimerEvent: {}
+[55.815786] (-) TimerEvent: {}
+[55.920795] (-) TimerEvent: {}
+[56.023779] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[56.024347] (-) TimerEvent: {}
+[56.127306] (-) TimerEvent: {}
+[56.226965] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] Built target ros_gz_interfaces__rosidl_typesupport_cpp\n'}
+[56.228861] (-) TimerEvent: {}
+[56.281091] (ros_gz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[56.329143] (-) TimerEvent: {}
+[56.430926] (-) TimerEvent: {}
+[56.536721] (-) TimerEvent: {}
+[56.638291] (-) TimerEvent: {}
+[56.741030] (-) TimerEvent: {}
+[56.844096] (-) TimerEvent: {}
+[56.945844] (-) TimerEvent: {}
+[57.047491] (-) TimerEvent: {}
+[57.148876] (-) TimerEvent: {}
+[57.249939] (-) TimerEvent: {}
+[57.350874] (-) TimerEvent: {}
+[57.451863] (-) TimerEvent: {}
+[57.552661] (-) TimerEvent: {}
+[57.657085] (-) TimerEvent: {}
+[57.758136] (-) TimerEvent: {}
+[57.859119] (-) TimerEvent: {}
+[57.960395] (-) TimerEvent: {}
+[58.062394] (-) TimerEvent: {}
+[58.163543] (-) TimerEvent: {}
+[58.264561] (-) TimerEvent: {}
+[58.366372] (-) TimerEvent: {}
+[58.467424] (-) TimerEvent: {}
+[58.570768] (-) TimerEvent: {}
+[58.673960] (-) TimerEvent: {}
+[58.775385] (-) TimerEvent: {}
+[58.876381] (-) TimerEvent: {}
+[58.977547] (-) TimerEvent: {}
+[59.078853] (-) TimerEvent: {}
+[59.179870] (-) TimerEvent: {}
+[59.280829] (-) TimerEvent: {}
+[59.382199] (-) TimerEvent: {}
+[59.483133] (-) TimerEvent: {}
+[59.584884] (-) TimerEvent: {}
+[59.685880] (-) TimerEvent: {}
+[59.793423] (-) TimerEvent: {}
+[59.894632] (-) TimerEvent: {}
+[59.995481] (-) TimerEvent: {}
+[60.097017] (-) TimerEvent: {}
+[60.197988] (-) TimerEvent: {}
+[60.298829] (-) TimerEvent: {}
+[60.400671] (-) TimerEvent: {}
+[60.502184] (-) TimerEvent: {}
+[60.607444] (-) TimerEvent: {}
+[60.708480] (-) TimerEvent: {}
+[60.809707] (-) TimerEvent: {}
+[60.910670] (-) TimerEvent: {}
+[61.011423] (-) TimerEvent: {}
+[61.112821] (-) TimerEvent: {}
+[61.213942] (-) TimerEvent: {}
+[61.315492] (-) TimerEvent: {}
+[61.416934] (-) TimerEvent: {}
+[61.517794] (-) TimerEvent: {}
+[61.618943] (-) TimerEvent: {}
+[61.719875] (-) TimerEvent: {}
+[61.821999] (-) TimerEvent: {}
+[61.923306] (-) TimerEvent: {}
+[62.025724] (-) TimerEvent: {}
+[62.127084] (-) TimerEvent: {}
+[62.227771] (-) TimerEvent: {}
+[62.329259] (-) TimerEvent: {}
+[62.431814] (-) TimerEvent: {}
+[62.532882] (-) TimerEvent: {}
+[62.635236] (-) TimerEvent: {}
+[62.736654] (-) TimerEvent: {}
+[62.837800] (-) TimerEvent: {}
+[62.939348] (-) TimerEvent: {}
+[62.992945] (ros_gz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/altimeter__type_support_c.cpp.o\x1b[0m\n'}
+[63.039682] (-) TimerEvent: {}
+[63.141085] (-) TimerEvent: {}
+[63.242415] (-) TimerEvent: {}
+[63.343814] (-) TimerEvent: {}
+[63.445976] (-) TimerEvent: {}
+[63.547103] (-) TimerEvent: {}
+[63.648430] (-) TimerEvent: {}
+[63.750004] (-) TimerEvent: {}
+[63.851311] (-) TimerEvent: {}
+[63.864655] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o\x1b[0m\n'}
+[63.951845] (-) TimerEvent: {}
+[64.052841] (-) TimerEvent: {}
+[64.154840] (-) TimerEvent: {}
+[64.256900] (-) TimerEvent: {}
+[64.357865] (-) TimerEvent: {}
+[64.459084] (-) TimerEvent: {}
+[64.560049] (-) TimerEvent: {}
+[64.662699] (-) TimerEvent: {}
+[64.763473] (-) TimerEvent: {}
+[64.838082] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o\x1b[0m\n'}
+[64.863802] (-) TimerEvent: {}
+[64.966114] (-) TimerEvent: {}
+[65.069906] (-) TimerEvent: {}
+[65.171397] (-) TimerEvent: {}
+[65.272798] (-) TimerEvent: {}
+[65.374489] (-) TimerEvent: {}
+[65.477057] (-) TimerEvent: {}
+[65.579811] (-) TimerEvent: {}
+[65.681727] (-) TimerEvent: {}
+[65.753392] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o\x1b[0m\n'}
+[65.781778] (-) TimerEvent: {}
+[65.882439] (-) TimerEvent: {}
+[65.985984] (-) TimerEvent: {}
+[66.087632] (-) TimerEvent: {}
+[66.188351] (-) TimerEvent: {}
+[66.289190] (-) TimerEvent: {}
+[66.389855] (-) TimerEvent: {}
+[66.490528] (-) TimerEvent: {}
+[66.591815] (-) TimerEvent: {}
+[66.645359] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[66.692962] (-) TimerEvent: {}
+[66.793547] (-) TimerEvent: {}
+[66.894255] (-) TimerEvent: {}
+[66.994991] (-) TimerEvent: {}
+[67.095751] (-) TimerEvent: {}
+[67.196768] (-) TimerEvent: {}
+[67.297441] (-) TimerEvent: {}
+[67.398674] (-) TimerEvent: {}
+[67.500496] (-) TimerEvent: {}
+[67.540149] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o\x1b[0m\n'}
+[67.600829] (-) TimerEvent: {}
+[67.701760] (-) TimerEvent: {}
+[67.802800] (-) TimerEvent: {}
+[67.904143] (-) TimerEvent: {}
+[68.005246] (-) TimerEvent: {}
+[68.106139] (-) TimerEvent: {}
+[68.206819] (-) TimerEvent: {}
+[68.307737] (-) TimerEvent: {}
+[68.408733] (-) TimerEvent: {}
+[68.510777] (-) TimerEvent: {}
+[68.512744] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[68.610901] (-) TimerEvent: {}
+[68.712493] (-) TimerEvent: {}
+[68.813797] (-) TimerEvent: {}
+[68.914822] (-) TimerEvent: {}
+[69.016347] (-) TimerEvent: {}
+[69.117525] (-) TimerEvent: {}
+[69.218690] (-) TimerEvent: {}
+[69.320730] (-) TimerEvent: {}
+[69.340368] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o\x1b[0m\n'}
+[69.421218] (-) TimerEvent: {}
+[69.522727] (-) TimerEvent: {}
+[69.623414] (-) TimerEvent: {}
+[69.724282] (-) TimerEvent: {}
+[69.825948] (-) TimerEvent: {}
+[69.927208] (-) TimerEvent: {}
+[70.028761] (-) TimerEvent: {}
+[70.129684] (-) TimerEvent: {}
+[70.172179] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o\x1b[0m\n'}
+[70.231193] (-) TimerEvent: {}
+[70.333463] (-) TimerEvent: {}
+[70.434799] (-) TimerEvent: {}
+[70.536737] (-) TimerEvent: {}
+[70.637994] (-) TimerEvent: {}
+[70.739136] (-) TimerEvent: {}
+[70.840284] (-) TimerEvent: {}
+[70.941875] (-) TimerEvent: {}
+[71.044933] (-) TimerEvent: {}
+[71.099343] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[71.146807] (-) TimerEvent: {}
+[71.247965] (-) TimerEvent: {}
+[71.349215] (-) TimerEvent: {}
+[71.450203] (-) TimerEvent: {}
+[71.551684] (-) TimerEvent: {}
+[71.653284] (-) TimerEvent: {}
+[71.755444] (-) TimerEvent: {}
+[71.856768] (-) TimerEvent: {}
+[71.960008] (-) TimerEvent: {}
+[71.987279] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o\x1b[0m\n'}
+[72.060950] (-) TimerEvent: {}
+[72.163269] (-) TimerEvent: {}
+[72.264696] (-) TimerEvent: {}
+[72.365823] (-) TimerEvent: {}
+[72.467154] (-) TimerEvent: {}
+[72.568680] (-) TimerEvent: {}
+[72.669737] (-) TimerEvent: {}
+[72.770858] (-) TimerEvent: {}
+[72.871875] (-) TimerEvent: {}
+[72.973911] (-) TimerEvent: {}
+[72.990007] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/material_color__type_support_c.cpp.o\x1b[0m\n'}
+[73.075761] (-) TimerEvent: {}
+[73.177550] (-) TimerEvent: {}
+[73.278936] (-) TimerEvent: {}
+[73.380107] (-) TimerEvent: {}
+[73.481036] (-) TimerEvent: {}
+[73.582115] (-) TimerEvent: {}
+[73.683452] (-) TimerEvent: {}
+[73.784541] (-) TimerEvent: {}
+[73.861735] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o\x1b[0m\n'}
+[73.886154] (-) TimerEvent: {}
+[73.988925] (-) TimerEvent: {}
+[74.090500] (-) TimerEvent: {}
+[74.199057] (-) TimerEvent: {}
+[74.300924] (-) TimerEvent: {}
+[74.402902] (-) TimerEvent: {}
+[74.505274] (-) TimerEvent: {}
+[74.606671] (-) TimerEvent: {}
+[74.707878] (-) TimerEvent: {}
+[74.805392] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support_c.cpp.o\x1b[0m\n'}
+[74.808210] (-) TimerEvent: {}
+[74.909873] (-) TimerEvent: {}
+[75.011378] (-) TimerEvent: {}
+[75.114052] (-) TimerEvent: {}
+[75.216494] (-) TimerEvent: {}
+[75.320851] (-) TimerEvent: {}
+[75.423419] (-) TimerEvent: {}
+[75.527854] (-) TimerEvent: {}
+[75.631039] (-) TimerEvent: {}
+[75.733852] (-) TimerEvent: {}
+[75.741530] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o\x1b[0m\n'}
+[75.834711] (-) TimerEvent: {}
+[75.936285] (-) TimerEvent: {}
+[76.038043] (-) TimerEvent: {}
+[76.139341] (-) TimerEvent: {}
+[76.241009] (-) TimerEvent: {}
+[76.342262] (-) TimerEvent: {}
+[76.443427] (-) TimerEvent: {}
+[76.544421] (-) TimerEvent: {}
+[76.645821] (-) TimerEvent: {}
+[76.699929] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o\x1b[0m\n'}
+[76.746207] (-) TimerEvent: {}
+[76.847754] (-) TimerEvent: {}
+[76.948792] (-) TimerEvent: {}
+[77.049811] (-) TimerEvent: {}
+[77.150842] (-) TimerEvent: {}
+[77.252073] (-) TimerEvent: {}
+[77.354540] (-) TimerEvent: {}
+[77.456109] (-) TimerEvent: {}
+[77.557210] (-) TimerEvent: {}
+[77.620817] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o\x1b[0m\n'}
+[77.657532] (-) TimerEvent: {}
+[77.758396] (-) TimerEvent: {}
+[77.859407] (-) TimerEvent: {}
+[77.962753] (-) TimerEvent: {}
+[78.064208] (-) TimerEvent: {}
+[78.165292] (-) TimerEvent: {}
+[78.267236] (-) TimerEvent: {}
+[78.368388] (-) TimerEvent: {}
+[78.469478] (-) TimerEvent: {}
+[78.570940] (-) TimerEvent: {}
+[78.600558] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o\x1b[0m\n'}
+[78.671923] (-) TimerEvent: {}
+[78.773207] (-) TimerEvent: {}
+[78.874252] (-) TimerEvent: {}
+[78.976907] (-) TimerEvent: {}
+[79.034853] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[79.077105] (-) TimerEvent: {}
+[79.179793] (-) TimerEvent: {}
+[79.283212] (-) TimerEvent: {}
+[79.385009] (-) TimerEvent: {}
+[79.487776] (-) TimerEvent: {}
+[79.591245] (-) TimerEvent: {}
+[79.661677] (ros_gz_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o\x1b[0m\n'}
+[79.691444] (-) TimerEvent: {}
+[79.792458] (-) TimerEvent: {}
+[79.894027] (-) TimerEvent: {}
+[79.996396] (-) TimerEvent: {}
+[80.100279] (-) TimerEvent: {}
+[80.201483] (-) TimerEvent: {}
+[80.302898] (-) TimerEvent: {}
+[80.405779] (-) TimerEvent: {}
+[80.508038] (-) TimerEvent: {}
+[80.610060] (-) TimerEvent: {}
+[80.711998] (-) TimerEvent: {}
+[80.723791] (ros_gz_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o\x1b[0m\n'}
+[80.812233] (-) TimerEvent: {}
+[80.914067] (-) TimerEvent: {}
+[81.017337] (-) TimerEvent: {}
+[81.118193] (-) TimerEvent: {}
+[81.218932] (-) TimerEvent: {}
+[81.321024] (-) TimerEvent: {}
+[81.421914] (-) TimerEvent: {}
+[81.524049] (-) TimerEvent: {}
+[81.627104] (-) TimerEvent: {}
+[81.728443] (-) TimerEvent: {}
+[81.804981] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o\x1b[0m\n'}
+[81.828484] (-) TimerEvent: {}
+[81.930978] (-) TimerEvent: {}
+[82.033009] (-) TimerEvent: {}
+[82.135173] (-) TimerEvent: {}
+[82.237275] (-) TimerEvent: {}
+[82.341265] (-) TimerEvent: {}
+[82.442151] (-) TimerEvent: {}
+[82.543958] (-) TimerEvent: {}
+[82.647089] (-) TimerEvent: {}
+[82.748077] (-) TimerEvent: {}
+[82.851782] (-) TimerEvent: {}
+[82.950883] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o\x1b[0m\n'}
+[82.951803] (-) TimerEvent: {}
+[83.053016] (-) TimerEvent: {}
+[83.156726] (-) TimerEvent: {}
+[83.257979] (-) TimerEvent: {}
+[83.359762] (-) TimerEvent: {}
+[83.462209] (-) TimerEvent: {}
+[83.563142] (-) TimerEvent: {}
+[83.666141] (-) TimerEvent: {}
+[83.767367] (-) TimerEvent: {}
+[83.868334] (-) TimerEvent: {}
+[83.971669] (-) TimerEvent: {}
+[83.979337] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o\x1b[0m\n'}
+[84.073709] (-) TimerEvent: {}
+[84.174801] (-) TimerEvent: {}
+[84.275879] (-) TimerEvent: {}
+[84.379035] (-) TimerEvent: {}
+[84.480696] (-) TimerEvent: {}
+[84.584430] (-) TimerEvent: {}
+[84.685796] (-) TimerEvent: {}
+[84.789239] (-) TimerEvent: {}
+[84.890901] (-) TimerEvent: {}
+[84.994330] (-) TimerEvent: {}
+[85.023965] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[85.095802] (-) TimerEvent: {}
+[85.199845] (-) TimerEvent: {}
+[85.301211] (-) TimerEvent: {}
+[85.386927] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[85.401374] (-) TimerEvent: {}
+[85.502310] (-) TimerEvent: {}
+[85.603107] (-) TimerEvent: {}
+[85.705672] (-) TimerEvent: {}
+[85.806704] (-) TimerEvent: {}
+[85.908438] (-) TimerEvent: {}
+[86.009425] (-) TimerEvent: {}
+[86.110401] (-) TimerEvent: {}
+[86.211826] (-) TimerEvent: {}
+[86.313789] (-) TimerEvent: {}
+[86.399144] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o\x1b[0m\n'}
+[86.413980] (-) TimerEvent: {}
+[86.514778] (-) TimerEvent: {}
+[86.616374] (-) TimerEvent: {}
+[86.717809] (-) TimerEvent: {}
+[86.819276] (-) TimerEvent: {}
+[86.923465] (-) TimerEvent: {}
+[87.024847] (-) TimerEvent: {}
+[87.128560] (-) TimerEvent: {}
+[87.230294] (-) TimerEvent: {}
+[87.331770] (-) TimerEvent: {}
+[87.432860] (-) TimerEvent: {}
+[87.454317] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o\x1b[0m\n'}
+[87.535406] (-) TimerEvent: {}
+[87.647911] (-) TimerEvent: {}
+[87.749168] (-) TimerEvent: {}
+[87.850248] (-) TimerEvent: {}
+[87.951365] (-) TimerEvent: {}
+[88.056824] (-) TimerEvent: {}
+[88.157505] (-) TimerEvent: {}
+[88.259776] (-) TimerEvent: {}
+[88.361720] (-) TimerEvent: {}
+[88.463449] (-) TimerEvent: {}
+[88.565049] (-) TimerEvent: {}
+[88.666007] (-) TimerEvent: {}
+[88.767795] (-) TimerEvent: {}
+[88.870807] (-) TimerEvent: {}
+[88.873172] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o\x1b[0m\n'}
+[88.971064] (-) TimerEvent: {}
+[89.072857] (-) TimerEvent: {}
+[89.173826] (-) TimerEvent: {}
+[89.275510] (-) TimerEvent: {}
+[89.372536] (ros_gz_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:354: CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o] \xec\x9d\xb8\xed\x84\xb0\xeb\x9f\xbd\xed\x8a\xb8\n'}
+[89.377384] (-) TimerEvent: {}
+[89.377777] (ros_gz_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] \xec\x9d\xb8\xed\x84\xb0\xeb\x9f\xbd\xed\x8a\xb8\n'}
+[89.378016] (ros_gz_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x9d\xb8\xed\x84\xb0\xeb\x9f\xbd\xed\x8a\xb8\n'}
+[89.382163] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 'SIGINT'}
+[89.393343] (dynamixel_sdk) JobSkipped: {'identifier': 'dynamixel_sdk'}
+[89.393423] (dynamixel_sdk_custom_interfaces) JobSkipped: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[89.393463] (test_node) JobSkipped: {'identifier': 'test_node'}
+[89.393498] (turtlebot3_cartographer) JobSkipped: {'identifier': 'turtlebot3_cartographer'}
+[89.393532] (turtlebot3_description) JobSkipped: {'identifier': 'turtlebot3_description'}
+[89.393591] (turtlebot3_msgs) JobSkipped: {'identifier': 'turtlebot3_msgs'}
+[89.393630] (turtlebot3_navigation2) JobSkipped: {'identifier': 'turtlebot3_navigation2'}
+[89.393662] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[89.393693] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[89.393724] (ros_gz_bridge) JobSkipped: {'identifier': 'ros_gz_bridge'}
+[89.393779] (ros_ign_gazebo) JobSkipped: {'identifier': 'ros_ign_gazebo'}
+[89.393812] (ros_ign_interfaces) JobSkipped: {'identifier': 'ros_ign_interfaces'}
+[89.393844] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[89.393871] (turtlebot3_fake_node) JobSkipped: {'identifier': 'turtlebot3_fake_node'}
+[89.393894] (turtlebot3_node) JobSkipped: {'identifier': 'turtlebot3_node'}
+[89.393977] (ros_gz_image) JobSkipped: {'identifier': 'ros_gz_image'}
+[89.394034] (ros_ign_bridge) JobSkipped: {'identifier': 'ros_ign_bridge'}
+[89.394077] (test_ros_gz_bridge) JobSkipped: {'identifier': 'test_ros_gz_bridge'}
+[89.394115] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[89.394152] (ros_gz_sim_demos) JobSkipped: {'identifier': 'ros_gz_sim_demos'}
+[89.394188] (ros_ign_image) JobSkipped: {'identifier': 'ros_ign_image'}
+[89.394223] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[89.394257] (turtlebot3_gazebo) JobSkipped: {'identifier': 'turtlebot3_gazebo'}
+[89.394291] (ros_gz) JobSkipped: {'identifier': 'ros_gz'}
+[89.394327] (ros_ign_gazebo_demos) JobSkipped: {'identifier': 'ros_ign_gazebo_demos'}
+[89.394361] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[89.394396] (ros_ign) JobSkipped: {'identifier': 'ros_ign'}
+[89.394433] (-) EventReactorShutdown: {}
