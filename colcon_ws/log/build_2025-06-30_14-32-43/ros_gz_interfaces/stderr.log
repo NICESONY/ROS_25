@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:354: CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o] 인터럽트
-gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] 인터럽트
-gmake: *** [Makefile:146: all] 인터럽트

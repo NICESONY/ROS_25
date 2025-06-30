@@ -1,0 +1,87 @@
+[0.088s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node
+[0.307s] -- The C compiler identification is GNU 11.4.0
+[0.526s] -- The CXX compiler identification is GNU 11.4.0
+[0.550s] -- Detecting C compiler ABI info
+[0.989s] -- Detecting C compiler ABI info - done
+[1.023s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.025s] -- Detecting C compile features
+[1.030s] -- Detecting C compile features - done
+[1.037s] -- Detecting CXX compiler ABI info
+[1.419s] -- Detecting CXX compiler ABI info - done
+[1.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.454s] -- Detecting CXX compile features
+[1.460s] -- Detecting CXX compile features - done
+[1.468s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.967s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.267s] -- Found dynamixel_sdk: 3.8.4 (/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.277s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.418s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.445s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.467s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.677s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[2.878s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.889s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.549s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.013s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.056s] -- Looking for pthread.h
+[4.576s] -- Looking for pthread.h - found
+[4.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.013s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.018s] -- Found Threads: TRUE  
+[5.315s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.462s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.647s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.772s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[5.830s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.317s] -- Found turtlebot3_msgs: 2.4.0 (/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[6.660s] -- Configuring done
+[6.847s] -- Generating done
+[6.899s] -- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node
+[6.991s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node
+[6.998s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node -- -j2 -l2
+[7.450s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[7.455s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[31.030s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[45.635s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[55.796s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[57.295s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[91.558s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[134.032s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[145.659s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[156.547s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[166.514s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[176.332s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[177.930s] [ 85%] Built target turtlebot3_node_lib
+[177.999s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[186.394s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[190.895s] [100%] Built target turtlebot3_ros
+[190.930s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node -- -j2 -l2
+[190.935s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node
+[190.959s] -- Install configuration: ""
+[190.959s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[190.959s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[190.961s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[190.963s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[190.964s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[190.999s] -- Set runtime path of "/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[191.000s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[191.002s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[191.003s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[191.007s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[191.007s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[191.010s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[191.011s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[191.014s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[191.015s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[191.015s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[191.016s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[191.017s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[191.017s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[191.018s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[191.019s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[191.020s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[191.021s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[191.027s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node
