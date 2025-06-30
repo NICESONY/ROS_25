@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sensor_listener = turtlebot3_controller.sensor_listener:main',
         ],
     },
 )
