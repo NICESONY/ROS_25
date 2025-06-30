@@ -1,0 +1,771 @@
+[0.000000] (-) TimerEvent: {}
+[0.001389] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.001697] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.001874] (test_node) JobQueued: {'identifier': 'test_node', 'dependencies': OrderedDict()}
+[0.002035] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.003947] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.004122] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.004210] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.004251] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.004289] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.004337] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk')])}
+[0.004375] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('turtlebot3_description', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description'), ('turtlebot3_node', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node')])}
+[0.004416] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'), ('turtlebot3_cartographer', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description'), ('turtlebot3_example', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example'), ('turtlebot3_navigation2', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2'), ('turtlebot3_teleop', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop'), ('turtlebot3_node', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node'), ('turtlebot3_bringup', '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup')])}
+[0.004511] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.020960] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.046343] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.052610] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk', '-DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[0.078207] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.085707] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[0.085849] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description', '--', '-j2', '-l2'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[0.108273] (-) TimerEvent: {}
+[0.212947] (-) TimerEvent: {}
+[0.317566] (-) TimerEvent: {}
+[0.330857] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[0.344213] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[0.384630] (dynamixel_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.415743] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[0.417892] (-) TimerEvent: {}
+[0.464730] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.468223] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes\n'}
+[0.468491] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors\n'}
+[0.468592] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae\n'}
+[0.470410] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg\n'}
+[0.471549] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae\n'}
+[0.518120] (-) TimerEvent: {}
+[0.554239] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl\n'}
+[0.554898] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg\n'}
+[0.555341] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases\n'}
+[0.555489] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl\n'}
+[0.620245] (dynamixel_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.620594] (-) TimerEvent: {}
+[0.621515] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl\n'}
+[0.630040] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl\n'}
+[0.643741] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels\n'}
+[0.646891] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl\n'}
+[0.647274] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl\n'}
+[0.650860] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/rviz\n'}
+[0.653164] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz\n'}
+[0.655297] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf\n'}
+[0.655838] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf\n'}
+[0.655952] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf\n'}
+[0.657540] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[0.657636] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf\n'}
+[0.657715] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[0.657803] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[0.657884] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[0.657958] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[0.658032] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[0.658106] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[0.661489] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[0.663466] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[0.663552] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[0.663629] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[0.667187] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[0.667348] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[0.667435] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[0.667512] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[0.667593] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[0.675361] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[0.678036] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.720778] (-) TimerEvent: {}
+[0.788840] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[0.791373] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.822075] (-) TimerEvent: {}
+[0.832377] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'cmake'}
+[0.840447] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[0.922253] (-) TimerEvent: {}
+[0.999321] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.024254] (-) TimerEvent: {}
+[1.038391] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.042304] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.042716] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.060257] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.125303] (-) TimerEvent: {}
+[1.157250] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.225445] (-) TimerEvent: {}
+[1.325936] (-) TimerEvent: {}
+[1.428435] (-) TimerEvent: {}
+[1.470445] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.527219] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.529568] (-) TimerEvent: {}
+[1.555419] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.597243] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.597520] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.597615] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.597704] (dynamixel_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.631373] (-) TimerEvent: {}
+[1.733232] (-) TimerEvent: {}
+[1.836258] (-) TimerEvent: {}
+[1.938382] (-) TimerEvent: {}
+[2.043661] (-) TimerEvent: {}
+[2.053399] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.102570] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.107431] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.109495] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.139275] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.145266] (-) TimerEvent: {}
+[2.247225] (-) TimerEvent: {}
+[2.350424] (-) TimerEvent: {}
+[2.459271] (-) TimerEvent: {}
+[2.512695] (dynamixel_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.559886] (-) TimerEvent: {}
+[2.663267] (-) TimerEvent: {}
+[2.763765] (-) TimerEvent: {}
+[2.767400] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.827589] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.827937] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.830562] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.844403] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.864911] (-) TimerEvent: {}
+[2.966749] (-) TimerEvent: {}
+[3.069077] (-) TimerEvent: {}
+[3.175268] (-) TimerEvent: {}
+[3.275972] (-) TimerEvent: {}
+[3.379217] (-) TimerEvent: {}
+[3.480248] (-) TimerEvent: {}
+[3.582809] (-) TimerEvent: {}
+[3.686557] (-) TimerEvent: {}
+[3.788258] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.788647] (-) TimerEvent: {}
+[3.890519] (-) TimerEvent: {}
+[3.994244] (-) TimerEvent: {}
+[4.043738] (dynamixel_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.094442] (-) TimerEvent: {}
+[4.098350] (dynamixel_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[4.116835] (dynamixel_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk\n'}
+[4.152195] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[4.153108] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'build'}
+[4.153190] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk', '--', '-j2', '-l2'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[4.194632] (-) TimerEvent: {}
+[4.298339] (-) TimerEvent: {}
+[4.335430] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[4.408259] (-) TimerEvent: {}
+[4.509614] (-) TimerEvent: {}
+[4.614315] (-) TimerEvent: {}
+[4.686467] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.718739] (-) TimerEvent: {}
+[4.784288] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.788560] (dynamixel_sdk) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_dynamixel_sdk\n'}
+[4.790728] (dynamixel_sdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o\x1b[0m\n'}
+[4.822309] (-) TimerEvent: {}
+[4.904713] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.925631] (-) TimerEvent: {}
+[5.043926] (-) TimerEvent: {}
+[5.149090] (-) TimerEvent: {}
+[5.163016] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.249782] (-) TimerEvent: {}
+[5.353881] (-) TimerEvent: {}
+[5.425621] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.460280] (-) TimerEvent: {}
+[5.565244] (-) TimerEvent: {}
+[5.622757] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.668279] (-) TimerEvent: {}
+[5.772265] (-) TimerEvent: {}
+[5.880414] (-) TimerEvent: {}
+[5.982348] (-) TimerEvent: {}
+[6.082894] (-) TimerEvent: {}
+[6.162821] (dynamixel_sdk) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o\x1b[0m\n'}
+[6.185064] (-) TimerEvent: {}
+[6.296998] (-) TimerEvent: {}
+[6.399665] (-) TimerEvent: {}
+[6.504514] (-) TimerEvent: {}
+[6.613526] (-) TimerEvent: {}
+[6.715101] (-) TimerEvent: {}
+[6.821759] (-) TimerEvent: {}
+[6.933358] (-) TimerEvent: {}
+[7.038765] (-) TimerEvent: {}
+[7.139729] (-) TimerEvent: {}
+[7.247384] (-) TimerEvent: {}
+[7.353313] (-) TimerEvent: {}
+[7.459315] (-) TimerEvent: {}
+[7.507687] (dynamixel_sdk) StdoutLine: {'line': b'running egg_info\n'}
+[7.514364] (dynamixel_sdk) StdoutLine: {'line': b'creating dynamixel_sdk.egg-info\n'}
+[7.519895] (dynamixel_sdk) StdoutLine: {'line': b'writing dynamixel_sdk.egg-info/PKG-INFO\n'}
+[7.520100] (dynamixel_sdk) StdoutLine: {'line': b'writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt\n'}
+[7.527557] (dynamixel_sdk) StdoutLine: {'line': b'writing top-level names to dynamixel_sdk.egg-info/top_level.txt\n'}
+[7.527717] (dynamixel_sdk) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'\n"}
+[7.543958] (dynamixel_sdk) StdoutLine: {'line': b"reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'\n"}
+[7.550855] (dynamixel_sdk) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'\n"}
+[7.560467] (-) TimerEvent: {}
+[7.669788] (-) TimerEvent: {}
+[7.772359] (-) TimerEvent: {}
+[7.873328] (-) TimerEvent: {}
+[7.915473] (dynamixel_sdk) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_dynamixel_sdk_egg\n'}
+[7.975525] (-) TimerEvent: {}
+[8.084276] (-) TimerEvent: {}
+[8.121569] (dynamixel_sdk) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o\x1b[0m\n'}
+[8.187280] (-) TimerEvent: {}
+[8.227289] (dynamixel_sdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o\x1b[0m\n'}
+[8.289533] (-) TimerEvent: {}
+[8.397443] (-) TimerEvent: {}
+[8.498688] (-) TimerEvent: {}
+[8.607501] (-) TimerEvent: {}
+[8.710408] (-) TimerEvent: {}
+[8.814301] (-) TimerEvent: {}
+[8.888211] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.922294] (-) TimerEvent: {}
+[9.023884] (-) TimerEvent: {}
+[9.125324] (-) TimerEvent: {}
+[9.233277] (-) TimerEvent: {}
+[9.339321] (-) TimerEvent: {}
+[9.444236] (-) TimerEvent: {}
+[9.545287] (-) TimerEvent: {}
+[9.654013] (-) TimerEvent: {}
+[9.763301] (-) TimerEvent: {}
+[9.865807] (-) TimerEvent: {}
+[9.968869] (-) TimerEvent: {}
+[10.075429] (-) TimerEvent: {}
+[10.182349] (-) TimerEvent: {}
+[10.290047] (-) TimerEvent: {}
+[10.393884] (-) TimerEvent: {}
+[10.498414] (-) TimerEvent: {}
+[10.601803] (-) TimerEvent: {}
+[10.714237] (-) TimerEvent: {}
+[10.815521] (-) TimerEvent: {}
+[10.918308] (-) TimerEvent: {}
+[11.028230] (-) TimerEvent: {}
+[11.130396] (-) TimerEvent: {}
+[11.238287] (-) TimerEvent: {}
+[11.342632] (-) TimerEvent: {}
+[11.448251] (-) TimerEvent: {}
+[11.550278] (-) TimerEvent: {}
+[11.656042] (-) TimerEvent: {}
+[11.758397] (-) TimerEvent: {}
+[11.863695] (-) TimerEvent: {}
+[11.970359] (-) TimerEvent: {}
+[12.061124] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.073411] (dynamixel_sdk) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o\x1b[0m\n'}
+[12.073860] (-) TimerEvent: {}
+[12.181268] (-) TimerEvent: {}
+[12.287267] (-) TimerEvent: {}
+[12.391783] (-) TimerEvent: {}
+[12.497279] (-) TimerEvent: {}
+[12.600554] (-) TimerEvent: {}
+[12.705746] (-) TimerEvent: {}
+[12.811547] (-) TimerEvent: {}
+[12.915872] (-) TimerEvent: {}
+[13.021470] (-) TimerEvent: {}
+[13.123283] (-) TimerEvent: {}
+[13.159760] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.223643] (-) TimerEvent: {}
+[13.328289] (-) TimerEvent: {}
+[13.344656] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[13.361840] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[13.437056] (-) TimerEvent: {}
+[13.537925] (-) TimerEvent: {}
+[13.639832] (-) TimerEvent: {}
+[13.669979] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[13.670440] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.670593] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[13.670723] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[13.740356] (-) TimerEvent: {}
+[13.850516] (-) TimerEvent: {}
+[13.857264] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[13.951367] (-) TimerEvent: {}
+[14.052328] (-) TimerEvent: {}
+[14.156017] (-) TimerEvent: {}
+[14.159347] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.257585] (-) TimerEvent: {}
+[14.363532] (-) TimerEvent: {}
+[14.393373] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[14.430486] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces\n'}
+[14.453496] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 0}
+[14.461453] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'build'}
+[14.461542] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[14.465275] (-) TimerEvent: {}
+[14.518506] (dynamixel_sdk) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o\x1b[0m\n'}
+[14.569755] (-) TimerEvent: {}
+[14.679274] (-) TimerEvent: {}
+[14.755315] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.791107] (-) TimerEvent: {}
+[14.894374] (-) TimerEvent: {}
+[14.997268] (-) TimerEvent: {}
+[15.099297] (-) TimerEvent: {}
+[15.207595] (-) TimerEvent: {}
+[15.311407] (-) TimerEvent: {}
+[15.414335] (-) TimerEvent: {}
+[15.518251] (-) TimerEvent: {}
+[15.620229] (-) TimerEvent: {}
+[15.724237] (-) TimerEvent: {}
+[15.824689] (-) TimerEvent: {}
+[15.929248] (-) TimerEvent: {}
+[16.031252] (-) TimerEvent: {}
+[16.134300] (-) TimerEvent: {}
+[16.235330] (-) TimerEvent: {}
+[16.284275] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target dynamixel_sdk_custom_interfaces__cpp\n'}
+[16.337556] (-) TimerEvent: {}
+[16.385416] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.438191] (-) TimerEvent: {}
+[16.542773] (-) TimerEvent: {}
+[16.644236] (-) TimerEvent: {}
+[16.745099] (-) TimerEvent: {}
+[16.850215] (-) TimerEvent: {}
+[16.951753] (-) TimerEvent: {}
+[17.056295] (-) TimerEvent: {}
+[17.159114] (-) TimerEvent: {}
+[17.261506] (-) TimerEvent: {}
+[17.366284] (-) TimerEvent: {}
+[17.469282] (-) TimerEvent: {}
+[17.530851] (dynamixel_sdk) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o\x1b[0m\n'}
+[17.569463] (-) TimerEvent: {}
+[17.673447] (-) TimerEvent: {}
+[17.774518] (-) TimerEvent: {}
+[17.878307] (-) TimerEvent: {}
+[17.985261] (-) TimerEvent: {}
+[18.089351] (-) TimerEvent: {}
+[18.139858] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o\x1b[0m\n'}
+[18.191873] (-) TimerEvent: {}
+[18.294369] (-) TimerEvent: {}
+[18.397444] (-) TimerEvent: {}
+[18.473284] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o\x1b[0m\n'}
+[18.501280] (-) TimerEvent: {}
+[18.602405] (-) TimerEvent: {}
+[18.707303] (-) TimerEvent: {}
+[18.808016] (-) TimerEvent: {}
+[18.856048] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[18.908367] (-) TimerEvent: {}
+[19.015000] (-) TimerEvent: {}
+[19.103021] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c\n'}
+[19.115121] (-) TimerEvent: {}
+[19.216218] (-) TimerEvent: {}
+[19.306475] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces\n'}
+[19.316278] (-) TimerEvent: {}
+[19.405328] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.416400] (-) TimerEvent: {}
+[19.520080] (-) TimerEvent: {}
+[19.621947] (-) TimerEvent: {}
+[19.724688] (-) TimerEvent: {}
+[19.758759] (dynamixel_sdk) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o\x1b[0m\n'}
+[19.828167] (-) TimerEvent: {}
+[19.930947] (-) TimerEvent: {}
+[20.035280] (-) TimerEvent: {}
+[20.136496] (-) TimerEvent: {}
+[20.241115] (-) TimerEvent: {}
+[20.343018] (-) TimerEvent: {}
+[20.445004] (-) TimerEvent: {}
+[20.548357] (-) TimerEvent: {}
+[20.652303] (-) TimerEvent: {}
+[20.753538] (-) TimerEvent: {}
+[20.829307] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o\x1b[0m\n'}
+[20.856295] (-) TimerEvent: {}
+[20.957969] (-) TimerEvent: {}
+[21.061441] (-) TimerEvent: {}
+[21.166463] (-) TimerEvent: {}
+[21.267046] (-) TimerEvent: {}
+[21.373542] (-) TimerEvent: {}
+[21.475985] (-) TimerEvent: {}
+[21.510500] (dynamixel_sdk) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o\x1b[0m\n'}
+[21.578385] (-) TimerEvent: {}
+[21.679929] (-) TimerEvent: {}
+[21.783681] (-) TimerEvent: {}
+[21.885280] (-) TimerEvent: {}
+[21.986624] (-) TimerEvent: {}
+[22.089874] (-) TimerEvent: {}
+[22.192657] (-) TimerEvent: {}
+[22.199738] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[22.297292] (-) TimerEvent: {}
+[22.400681] (-) TimerEvent: {}
+[22.503339] (-) TimerEvent: {}
+[22.606849] (-) TimerEvent: {}
+[22.715289] (-) TimerEvent: {}
+[22.816111] (-) TimerEvent: {}
+[22.918720] (-) TimerEvent: {}
+[23.019937] (-) TimerEvent: {}
+[23.123978] (-) TimerEvent: {}
+[23.226338] (-) TimerEvent: {}
+[23.283078] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.299692] (dynamixel_sdk) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o\x1b[0m\n'}
+[23.330263] (-) TimerEvent: {}
+[23.432347] (-) TimerEvent: {}
+[23.537281] (-) TimerEvent: {}
+[23.583568] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp\n'}
+[23.637497] (-) TimerEvent: {}
+[23.639233] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.740241] (-) TimerEvent: {}
+[23.841426] (-) TimerEvent: {}
+[23.944694] (-) TimerEvent: {}
+[24.021612] (dynamixel_sdk) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o\x1b[0m\n'}
+[24.044807] (-) TimerEvent: {}
+[24.144321] (dynamixel_sdk) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o\x1b[0m\n'}
+[24.145243] (-) TimerEvent: {}
+[24.253213] (-) TimerEvent: {}
+[24.359326] (-) TimerEvent: {}
+[24.441239] (dynamixel_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk.so\x1b[0m\n'}
+[24.459476] (-) TimerEvent: {}
+[24.561444] (-) TimerEvent: {}
+[24.665812] (-) TimerEvent: {}
+[24.767079] (-) TimerEvent: {}
+[24.793409] (dynamixel_sdk) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk\n'}
+[24.867204] (-) TimerEvent: {}
+[24.868317] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[24.871436] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'install'}
+[24.871621] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[24.914358] (dynamixel_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.918032] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include/\n'}
+[24.918272] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk\n'}
+[24.922433] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h\n'}
+[24.922715] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h\n'}
+[24.922987] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h\n'}
+[24.923111] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h\n'}
+[24.923405] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h\n'}
+[24.923520] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h\n'}
+[24.923624] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h\n'}
+[24.923729] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h\n'}
+[24.923836] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h\n'}
+[24.923939] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h\n'}
+[24.926407] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h\n'}
+[24.926922] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h\n'}
+[24.927404] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h\n'}
+[24.928233] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h\n'}
+[24.930223] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h\n'}
+[24.930733] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h\n'}
+[24.932099] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so\n'}
+[24.933280] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh\n'}
+[24.933888] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv\n'}
+[24.934627] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info\n'}
+[24.935734] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/top_level.txt\n'}
+[24.936424] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/dependency_links.txt\n'}
+[24.937435] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/PKG-INFO\n'}
+[24.937613] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/SOURCES.txt\n'}
+[24.938269] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk\n'}
+[24.940163] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py\n'}
+[24.940541] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp\n'}
+[24.940695] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp\n'}
+[24.941066] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp\n'}
+[24.941588] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp\n'}
+[24.942198] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py\n'}
+[24.942584] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp\n'}
+[24.942902] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp\n'}
+[24.945523] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py\n'}
+[24.945883] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py\n'}
+[24.946021] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp\n'}
+[24.946365] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py\n'}
+[24.947407] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py\n'}
+[24.947540] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp\n'}
+[24.947622] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp\n'}
+[24.947712] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp\n'}
+[24.948381] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp\n'}
+[24.948512] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py\n'}
+[24.948600] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp\n'}
+[24.951202] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py\n'}
+[24.951387] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py\n'}
+[24.951713] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp\n'}
+[24.953241] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp\n'}
+[24.953381] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp\n'}
+[24.953470] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py\n'}
+[24.970250] (-) TimerEvent: {}
+[25.074195] (dynamixel_sdk) StdoutLine: {'line': b"Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...\n"}
+[25.074513] (-) TimerEvent: {}
+[25.077467] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py'...\n"}
+[25.077837] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py'...\n"}
+[25.077983] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py'...\n"}
+[25.078106] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py'...\n"}
+[25.081744] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py'...\n"}
+[25.081858] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py'...\n"}
+[25.081945] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py'...\n"}
+[25.082029] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py'...\n"}
+[25.082113] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py'...\n"}
+[25.082220] (dynamixel_sdk) StdoutLine: {'line': b"Compiling '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py'...\n"}
+[25.096506] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh\n'}
+[25.097792] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv\n'}
+[25.098334] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk\n'}
+[25.099041] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk\n'}
+[25.099800] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh\n'}
+[25.100261] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv\n'}
+[25.100700] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh\n'}
+[25.101143] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv\n'}
+[25.101570] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash\n'}
+[25.101925] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh\n'}
+[25.102324] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh\n'}
+[25.102688] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv\n'}
+[25.103120] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv\n'}
+[25.103629] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk\n'}
+[25.104053] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake\n'}
+[25.104487] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake\n'}
+[25.104855] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.105382] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.105777] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.106165] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake\n'}
+[25.106852] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake\n'}
+[25.107022] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml\n'}
+[25.118824] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[25.175261] (-) TimerEvent: {}
+[25.188824] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 0}
+[25.191655] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[25.216218] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[25.217663] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_node', '-DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ros25'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros25'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/ros25/ROS/ROS_25/colcon_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '41486'), ('SYSTEMD_EXEC_PID', '41655'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros25'), ('JOURNAL_STREAM', '8:128887'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros25'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros25-virtual-machine:@/tmp/.ICE-unix/41634,unix/ros25-virtual-machine:/tmp/.ICE-unix/41634'), ('INVOCATION_ID', 'e67aee69c2904b6b8af87ed223ecd209'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UKOV82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b5c5451550.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:20e2217c-27aa-4010-95fb-f206f18fec6a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble')]), 'shell': False}
+[25.275475] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[25.276360] (-) TimerEvent: {}
+[25.378232] (-) TimerEvent: {}
+[25.455236] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o\x1b[0m\n'}
+[25.478388] (-) TimerEvent: {}
+[25.584645] (-) TimerEvent: {}
+[25.686512] (-) TimerEvent: {}
+[25.788886] (-) TimerEvent: {}
+[25.793446] (turtlebot3_node) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.8.4 (/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)\n'}
+[25.805965] (turtlebot3_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[25.889031] (-) TimerEvent: {}
+[25.966408] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[25.992090] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[25.992402] (-) TimerEvent: {}
+[26.046276] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[26.091728] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.093241] (-) TimerEvent: {}
+[26.189280] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[26.194821] (-) TimerEvent: {}
+[26.295482] (-) TimerEvent: {}
+[26.375547] (turtlebot3_node) StdoutLine: {'line': b'-- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[26.396270] (-) TimerEvent: {}
+[26.499658] (-) TimerEvent: {}
+[26.600420] (-) TimerEvent: {}
+[26.700999] (-) TimerEvent: {}
+[26.707888] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[26.732834] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[26.757290] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o\x1b[0m\n'}
+[26.801991] (-) TimerEvent: {}
+[26.906572] (-) TimerEvent: {}
+[27.008419] (-) TimerEvent: {}
+[27.110742] (-) TimerEvent: {}
+[27.212860] (-) TimerEvent: {}
+[27.258443] (turtlebot3_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[27.313594] (-) TimerEvent: {}
+[27.385277] (turtlebot3_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[27.413713] (-) TimerEvent: {}
+[27.516967] (-) TimerEvent: {}
+[27.520069] (turtlebot3_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.583260] (turtlebot3_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[27.617157] (-) TimerEvent: {}
+[27.719399] (-) TimerEvent: {}
+[27.820966] (-) TimerEvent: {}
+[27.852392] (turtlebot3_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.853198] (turtlebot3_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.921106] (-) TimerEvent: {}
+[28.024079] (-) TimerEvent: {}
+[28.125531] (-) TimerEvent: {}
+[28.230244] (-) TimerEvent: {}
+[28.259379] (turtlebot3_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[28.274264] (turtlebot3_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[28.334202] (-) TimerEvent: {}
+[28.437286] (-) TimerEvent: {}
+[28.542740] (-) TimerEvent: {}
+[28.578430] (turtlebot3_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[28.646010] (-) TimerEvent: {}
+[28.733770] (turtlebot3_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[28.746837] (-) TimerEvent: {}
+[28.754073] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[28.847355] (-) TimerEvent: {}
+[28.917119] (turtlebot3_node) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[28.947587] (-) TimerEvent: {}
+[29.013987] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[29.050089] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[29.050709] (-) TimerEvent: {}
+[29.074200] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[29.124864] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.150903] (-) TimerEvent: {}
+[29.253206] (-) TimerEvent: {}
+[29.359266] (-) TimerEvent: {}
+[29.460017] (-) TimerEvent: {}
+[29.561129] (-) TimerEvent: {}
+[29.635763] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[29.636221] (turtlebot3_node) StdoutLine: {'line': b'See also "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_node/CMakeFiles/CMakeOutput.log".\n'}
+[29.636352] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (find_package):\n'}
+[29.636490] (turtlebot3_node) StderrLine: {'line': b'  By not providing "Findturtlebot3_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[29.636591] (turtlebot3_node) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[29.636762] (turtlebot3_node) StderrLine: {'line': b'  "turtlebot3_msgs", but CMake did not find one.\n'}
+[29.637037] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[29.643201] (turtlebot3_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "turtlebot3_msgs"\n'}
+[29.643368] (turtlebot3_node) StderrLine: {'line': b'  with any of the following names:\n'}
+[29.643451] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[29.643529] (turtlebot3_node) StderrLine: {'line': b'    turtlebot3_msgsConfig.cmake\n'}
+[29.643652] (turtlebot3_node) StderrLine: {'line': b'    turtlebot3_msgs-config.cmake\n'}
+[29.643735] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[29.643815] (turtlebot3_node) StderrLine: {'line': b'  Add the installation prefix of "turtlebot3_msgs" to CMAKE_PREFIX_PATH or\n'}
+[29.643898] (turtlebot3_node) StderrLine: {'line': b'  set "turtlebot3_msgs_DIR" to a directory containing one of the above files.\n'}
+[29.643981] (turtlebot3_node) StderrLine: {'line': b'  If "turtlebot3_msgs" provides a separate development package or SDK, be\n'}
+[29.644061] (turtlebot3_node) StderrLine: {'line': b'  sure it has been installed.\n'}
+[29.644158] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[29.644247] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[29.660630] (turtlebot3_node) CommandEnded: {'returncode': 1}
+[29.670504] (-) TimerEvent: {}
+[29.772235] (-) TimerEvent: {}
+[29.810458] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 1}
+[29.875669] (-) TimerEvent: {}
+[29.976763] (-) TimerEvent: {}
+[30.080552] (-) TimerEvent: {}
+[30.182458] (-) TimerEvent: {}
+[30.199724] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o\x1b[0m\n'}
+[30.282600] (-) TimerEvent: {}
+[30.383110] (-) TimerEvent: {}
+[30.484439] (-) TimerEvent: {}
+[30.585067] (-) TimerEvent: {}
+[30.686698] (-) TimerEvent: {}
+[30.790068] (-) TimerEvent: {}
+[30.858909] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o\x1b[0m\n'}
+[30.890337] (-) TimerEvent: {}
+[30.991008] (-) TimerEvent: {}
+[31.092429] (-) TimerEvent: {}
+[31.194253] (-) TimerEvent: {}
+[31.294860] (-) TimerEvent: {}
+[31.397918] (-) TimerEvent: {}
+[31.500079] (-) TimerEvent: {}
+[31.601780] (-) TimerEvent: {}
+[31.707385] (-) TimerEvent: {}
+[31.808420] (-) TimerEvent: {}
+[31.911611] (-) TimerEvent: {}
+[32.012823] (-) TimerEvent: {}
+[32.072777] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[32.113023] (-) TimerEvent: {}
+[32.214647] (-) TimerEvent: {}
+[32.317522] (-) TimerEvent: {}
+[32.352330] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[32.402207] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[32.417692] (-) TimerEvent: {}
+[32.521462] (-) TimerEvent: {}
+[32.622470] (-) TimerEvent: {}
+[32.723488] (-) TimerEvent: {}
+[32.825770] (-) TimerEvent: {}
+[32.929252] (-) TimerEvent: {}
+[33.030091] (-) TimerEvent: {}
+[33.130798] (-) TimerEvent: {}
+[33.234096] (-) TimerEvent: {}
+[33.335302] (-) TimerEvent: {}
+[33.389256] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o\x1b[0m\n'}
+[33.436086] (-) TimerEvent: {}
+[33.536287] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o\x1b[0m\n'}
+[33.536726] (-) TimerEvent: {}
+[33.639993] (-) TimerEvent: {}
+[33.656723] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[33.742256] (-) TimerEvent: {}
+[33.801857] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[33.842585] (-) TimerEvent: {}
+[33.846425] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[33.943420] (-) TimerEvent: {}
+[34.048310] (-) TimerEvent: {}
+[34.148889] (-) TimerEvent: {}
+[34.251317] (-) TimerEvent: {}
+[34.353058] (-) TimerEvent: {}
+[34.453947] (-) TimerEvent: {}
+[34.557609] (-) TimerEvent: {}
+[34.658641] (-) TimerEvent: {}
+[34.759302] (-) TimerEvent: {}
+[34.767340] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o\x1b[0m\n'}
+[34.859761] (-) TimerEvent: {}
+[34.899183] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[34.959960] (-) TimerEvent: {}
+[35.040399] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[35.065127] (-) TimerEvent: {}
+[35.170301] (-) TimerEvent: {}
+[35.271740] (-) TimerEvent: {}
+[35.306413] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c\n'}
+[35.372725] (-) TimerEvent: {}
+[35.379353] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[35.474821] (-) TimerEvent: {}
+[35.576288] (-) TimerEvent: {}
+[35.676942] (-) TimerEvent: {}
+[35.777594] (-) TimerEvent: {}
+[35.879260] (-) TimerEvent: {}
+[35.981880] (-) TimerEvent: {}
+[36.084218] (-) TimerEvent: {}
+[36.187450] (-) TimerEvent: {}
+[36.288012] (-) TimerEvent: {}
+[36.308662] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o\x1b[0m\n'}
+[36.388256] (-) TimerEvent: {}
+[36.491459] (-) TimerEvent: {}
+[36.595466] (-) TimerEvent: {}
+[36.697680] (-) TimerEvent: {}
+[36.798836] (-) TimerEvent: {}
+[36.901587] (-) TimerEvent: {}
+[37.003733] (-) TimerEvent: {}
+[37.106366] (-) TimerEvent: {}
+[37.207287] (-) TimerEvent: {}
+[37.308388] (-) TimerEvent: {}
+[37.410380] (-) TimerEvent: {}
+[37.442368] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o\x1b[0m\n'}
+[37.512296] (-) TimerEvent: {}
+[37.615075] (-) TimerEvent: {}
+[37.719741] (-) TimerEvent: {}
+[37.821785] (-) TimerEvent: {}
+[37.923295] (-) TimerEvent: {}
+[38.025666] (-) TimerEvent: {}
+[38.128301] (-) TimerEvent: {}
+[38.230704] (-) TimerEvent: {}
+[38.314425] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[38.332261] (-) TimerEvent: {}
+[38.435294] (-) TimerEvent: {}
+[38.471923] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[38.537099] (-) TimerEvent: {}
+[38.639445] (-) TimerEvent: {}
+[38.741121] (-) TimerEvent: {}
+[38.843634] (-) TimerEvent: {}
+[38.887322] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[38.889316] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'creating dynamixel_sdk_custom_interfaces.egg-info\n'}
+[38.890113] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO\n'}
+[38.890841] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt\n'}
+[38.891486] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt\n'}
+[38.892160] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[38.895150] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[38.896396] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[38.944280] (-) TimerEvent: {}
+[38.954446] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg\n'}
+[39.019306] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target dynamixel_sdk_custom_interfaces\n'}
+[39.044452] (-) TimerEvent: {}
+[39.076802] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[39.145879] (-) TimerEvent: {}
+[39.249907] (-) TimerEvent: {}
+[39.350443] (-) TimerEvent: {}
+[39.452318] (-) TimerEvent: {}
+[39.553192] (-) TimerEvent: {}
+[39.655279] (-) TimerEvent: {}
+[39.757261] (-) TimerEvent: {}
+[39.857787] (-) TimerEvent: {}
+[39.958682] (-) TimerEvent: {}
+[40.059371] (-) TimerEvent: {}
+[40.138233] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target dynamixel_sdk_custom_interfaces__py\n'}
+[40.160364] (-) TimerEvent: {}
+[40.219374] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o\x1b[0m\n'}
+[40.260630] (-) TimerEvent: {}
+[40.362897] (-) TimerEvent: {}
+[40.463788] (-) TimerEvent: {}
+[40.564524] (-) TimerEvent: {}
+[40.594683] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o\x1b[0m\n'}
+[40.664763] (-) TimerEvent: {}
+[40.766811] (-) TimerEvent: {}
+[40.818239] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[40.866994] (-) TimerEvent: {}
+[40.941791] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py\n'}
+[40.969279] (-) TimerEvent: {}
+[41.026815] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[41.071300] (-) TimerEvent: {}
+[41.171932] (-) TimerEvent: {}
+[41.272848] (-) TimerEvent: {}
+[41.363698] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[41.372971] (-) TimerEvent: {}
+[41.475703] (-) TimerEvent: {}
+[41.484443] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[41.540924] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[41.575863] (-) TimerEvent: {}
+[41.678553] (-) TimerEvent: {}
+[41.754997] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[41.778731] (-) TimerEvent: {}
+[41.874529] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[41.879223] (-) TimerEvent: {}
+[41.957431] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[41.979385] (-) TimerEvent: {}
+[42.080421] (-) TimerEvent: {}
+[42.183579] (-) TimerEvent: {}
+[42.285231] (-) TimerEvent: {}
+[42.324578] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[42.385414] (-) TimerEvent: {}
+[42.463621] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[42.485681] (-) TimerEvent: {}
+[42.528946] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 'SIGINT'}
+[42.539648] (test_node) JobSkipped: {'identifier': 'test_node'}
+[42.539805] (turtlebot3_cartographer) JobSkipped: {'identifier': 'turtlebot3_cartographer'}
+[42.539845] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[42.539876] (turtlebot3_navigation2) JobSkipped: {'identifier': 'turtlebot3_navigation2'}
+[42.539906] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[42.539934] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[42.539961] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[42.539987] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[42.540015] (-) EventReactorShutdown: {}

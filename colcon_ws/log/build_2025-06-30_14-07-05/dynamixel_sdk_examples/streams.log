@@ -1,0 +1,77 @@
+[0.125s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples
+[0.576s] -- The C compiler identification is GNU 11.4.0
+[1.037s] -- The CXX compiler identification is GNU 11.4.0
+[1.096s] -- Detecting C compiler ABI info
+[1.565s] -- Detecting C compiler ABI info - done
+[1.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.617s] -- Detecting C compile features
+[1.617s] -- Detecting C compile features - done
+[1.635s] -- Detecting CXX compiler ABI info
+[2.249s] -- Detecting CXX compiler ABI info - done
+[2.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.277s] -- Detecting CXX compile features
+[2.277s] -- Detecting CXX compile features - done
+[2.287s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.168s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.725s] -- Found dynamixel_sdk: 3.8.4 (/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.742s] -- Found dynamixel_sdk_custom_interfaces: 3.8.4 (/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[3.867s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.899s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.945s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.103s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.256s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.467s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.479s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.089s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.203s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.335s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.362s] -- Looking for pthread.h
+[5.955s] -- Looking for pthread.h - found
+[5.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.377s] -- Found Threads: TRUE  
+[6.674s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[6.681s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.182s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.186s] -- Configured cppcheck include dirs: /home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[7.186s] -- Configured cppcheck exclude dirs and/or files: 
+[7.192s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.192s] -- Configured cpplint exclude dirs and/or files: 
+[7.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.202s] -- Added test 'lint_cmake' to check CMake code style
+[7.205s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.210s] -- Added test 'uncrustify' to check C / C++ code style
+[7.210s] -- Configured uncrustify additional arguments: 
+[7.217s] -- Added test 'xmllint' to check XML markup files
+[7.227s] -- Configuring done
+[7.281s] -- Generating done
+[7.305s] -- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples
+[7.350s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples
+[7.351s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples -- -j2 -l2
+[7.787s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[61.285s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[63.327s] [100%] Built target read_write_node
+[63.375s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples -- -j2 -l2
+[63.392s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples
+[63.434s] -- Install configuration: ""
+[63.436s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[63.453s] -- Set runtime path of "/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[63.453s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[63.453s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[63.455s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[63.460s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[63.460s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[63.463s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[63.467s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[63.468s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[63.471s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[63.478s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[63.478s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[63.480s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[63.482s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[63.485s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[63.487s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[63.491s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[63.501s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_examples

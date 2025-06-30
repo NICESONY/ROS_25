@@ -13,3 +13,4 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 test_node/__init__.py
+test_node/my_node.py
