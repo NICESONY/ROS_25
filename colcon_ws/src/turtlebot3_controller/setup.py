@@ -23,7 +23,7 @@ setup(
         # maps 폴더 안의 모든 .yaml 파일
         (
             os.path.join('share', package_name, 'maps'),
-            glob('maps/*.yaml')
+            glob('maps/*.*')
         ),
         # config  폴더 안의 모든 .yaml 파일
         (

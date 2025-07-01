@@ -9,7 +9,10 @@ setup.py
 ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/top_level.txt
 ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/zip-safe
 launch/bringup_all.launch.py
+maps/carto_map.pgm
 maps/carto_map.yaml
+maps/map.pgm
+maps/map.yaml
 resource/turtlebot3_controller
 test/test_copyright.py
 test/test_flake8.py
