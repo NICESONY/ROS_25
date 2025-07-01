@@ -13,9 +13,28 @@ def generate_launch_description():
     ]))
 
     return LaunchDescription([
+        
+        # 0. 시뮬레이션 시간 사용 여부 설정
+        # 이 설정은 Cartographer와 Nav2에서 시뮬레이션 시간을 사용하도록 합니다.
+        # 실제 로봇에서는 false로 설정해야 합니다.
+        # 시뮬레이션에서는 true로 설정합니다.
+
         DeclareLaunchArgument('use_sim_time', default_value='true'),
-        DeclareLaunchArgument('map_yaml'),
+        # 0. Map YAML 파일 경로 설정
+        # 이 경로는 Cartographer가 생성한 YAML 파일이어야 합니다.
+        # 예시: turtlebot3_controller/maps/carto_map.yaml
+
+        DeclareLaunchArgument(
+            'map_yaml',
+            default_value=PathJoinSubstitution([
+            get_package_share_directory('turtlebot3_controller'),
+            'maps',
+            'carto_map.yaml'
+        ]),
+        description='Full path to map yaml file'
+        ),
         # 1. Gazebo 시뮬레이션
+        
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([
                 get_package_share_directory('turtlebot3_gazebo'),
