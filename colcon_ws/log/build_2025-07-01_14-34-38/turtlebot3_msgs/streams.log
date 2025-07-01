@@ -1,0 +1,302 @@
+[0.131s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs -- -j2 -l2
+[0.873s] [  1%] Built target turtlebot3_msgs__cpp
+[1.301s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[1.820s] [ 12%] Built target ament_cmake_python_copy_turtlebot3_msgs
+[2.131s] [ 24%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[2.554s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[2.949s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[3.359s] [ 58%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[3.744s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[4.150s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[7.291s] running egg_info
+[7.301s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[7.307s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[7.309s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[7.338s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[7.344s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[7.834s] [ 81%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+[8.274s] [ 81%] Built target turtlebot3_msgs
+[8.624s] [ 82%] Built target turtlebot3_msgs__py
+[8.899s] [ 92%] Built target turtlebot3_msgs__rosidl_generator_py
+[9.296s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.652s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[9.971s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[10.213s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs -- -j2 -l2
+[10.217s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs
+[10.330s] -- Install configuration: ""
+[10.335s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[10.335s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.335s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.335s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.341s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.h
+[10.343s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.h
+[10.343s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__functions.c
+[10.343s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__functions.h
+[10.344s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.h
+[10.350s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.351s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.h
+[10.351s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.351s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[10.355s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__functions.c
+[10.356s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[10.356s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[10.357s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__functions.h
+[10.357s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[10.357s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__functions.c
+[10.363s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__functions.h
+[10.364s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.h
+[10.368s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__functions.c
+[10.368s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.h
+[10.368s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.h
+[10.374s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.h
+[10.383s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.h
+[10.383s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.384s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.384s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.h
+[10.384s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.h
+[10.391s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/goal.h
+[10.391s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.391s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.h
+[10.391s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__functions.c
+[10.392s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__functions.c
+[10.392s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__struct.h
+[10.396s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__functions.c
+[10.396s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__functions.h
+[10.400s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__functions.h
+[10.400s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.h
+[10.401s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__functions.h
+[10.401s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.h
+[10.401s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.h
+[10.401s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.h
+[10.401s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[10.401s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[10.402s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[10.402s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.402s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.408s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.408s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.409s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.410s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.410s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h
+[10.410s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_c.h
+[10.416s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h
+[10.416s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[10.417s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.417s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.417s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.hpp
+[10.421s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.421s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.hpp
+[10.422s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[10.422s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[10.422s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[10.425s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.428s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.hpp
+[10.430s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.430s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[10.430s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[10.432s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp
+[10.432s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[10.434s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[10.435s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[10.435s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[10.435s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[10.435s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[10.435s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[10.435s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.hpp
+[10.439s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.hpp
+[10.439s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.439s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.hpp
+[10.439s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.hpp
+[10.439s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.439s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/goal.hpp
+[10.440s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.440s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[10.440s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__traits.hpp
+[10.440s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__builder.hpp
+[10.440s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[10.441s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__traits.hpp
+[10.441s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.hpp
+[10.441s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.hpp
+[10.441s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[10.451s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.hpp
+[10.452s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.hpp
+[10.452s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__builder.hpp
+[10.452s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__struct.hpp
+[10.453s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.hpp
+[10.453s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.hpp
+[10.456s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.456s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.457s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.457s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[10.457s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/dds_fastrtps
+[10.460s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.462s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.462s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.462s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.462s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/dds_fastrtps
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dds_fastrtps
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[10.463s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.464s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.464s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.464s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.464s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.c
+[10.470s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[10.470s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.470s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.474s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.474s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[10.484s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[10.484s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[10.485s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.c
+[10.485s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.c
+[10.489s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.c
+[10.489s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.496s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.496s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.c
+[10.496s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.c
+[10.496s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_c.h
+[10.501s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[10.501s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.c
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.502s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.cpp
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.cpp
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.cpp
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[10.506s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[10.507s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[10.507s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.507s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.507s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.cpp
+[10.507s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.cpp
+[10.507s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp
+[10.508s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[10.508s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.cpp
+[10.508s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[10.519s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[10.520s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[10.521s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[10.522s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[10.522s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info
+[10.522s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/top_level.txt
+[10.522s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/dependency_links.txt
+[10.524s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/PKG-INFO
+[10.524s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/SOURCES.txt
+[10.525s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs
+[10.525s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.527s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.so
+[10.527s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c
+[10.527s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action
+[10.528s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol.py
+[10.528s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol_s.c
+[10.528s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/__init__.py
+[10.529s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.529s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg
+[10.529s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound_s.c
+[10.529s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state.py
+[10.533s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state_s.c
+[10.533s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info.py
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound.py
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info_s.c
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/__init__.py
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/__init__.py
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv
+[10.534s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound_s.c
+[10.537s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn_s.c
+[10.537s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound.py
+[10.537s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_goal_s.c
+[10.538s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/__init__.py
+[10.538s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_goal.py
+[10.538s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn.py
+[10.541s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.541s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.905s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs'...
+[10.915s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action'...
+[10.915s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg'...
+[10.916s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv'...
+[10.972s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.978s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.981s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.992s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_py.so
+[10.993s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[10.994s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[10.994s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[10.996s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[11.000s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl
+[11.001s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.idl
+[11.003s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[11.003s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[11.007s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[11.007s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[11.008s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[11.008s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[11.008s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[11.010s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv
+[11.011s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg
+[11.011s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg
+[11.011s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.srv
+[11.015s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal_Request.msg
+[11.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal_Response.msg
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[11.019s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[11.020s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[11.024s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[11.026s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[11.026s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport.cmake
+[11.026s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.030s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.030s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.031s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[11.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[11.035s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.035s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.035s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.035s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[11.035s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.038s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.041s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.043s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[11.043s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[11.043s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[11.055s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs

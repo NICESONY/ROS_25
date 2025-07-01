@@ -1,0 +1,182 @@
+[0.134s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces -- -j2 -l2
+[0.875s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[1.244s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[1.736s] [ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[2.040s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[2.411s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[2.832s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.104s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[3.519s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[3.864s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[6.636s] running egg_info
+[6.643s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[6.659s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[6.659s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[6.698s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[6.711s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[7.197s] [ 74%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[7.582s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[7.970s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[8.374s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[8.785s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.144s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.540s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[9.757s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces -- -j2 -l2
+[9.759s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces
+[9.920s] -- Install configuration: ""
+[9.920s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[9.927s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[9.928s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[9.928s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[9.928s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[9.934s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[9.934s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[9.934s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[9.934s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[9.935s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.935s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[9.935s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[9.943s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[9.943s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[9.943s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[9.944s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[9.944s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[9.944s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[9.944s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[9.957s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[9.957s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[9.957s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[9.957s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[9.958s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[9.958s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.958s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[9.958s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[9.959s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[9.959s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.959s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[9.959s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[9.959s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[9.967s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[9.968s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[9.968s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[9.968s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[9.968s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[9.968s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.976s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[9.980s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[9.980s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[9.980s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[9.980s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[9.980s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[9.986s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[9.986s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.987s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[9.992s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[9.992s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.992s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[9.992s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[10.003s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[10.007s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.007s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.007s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[10.007s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[10.014s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[10.014s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[10.015s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[10.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[10.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[10.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[10.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[10.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[10.016s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[10.021s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[10.021s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[10.021s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.021s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[10.025s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[10.025s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[10.026s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info
+[10.027s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info/top_level.txt
+[10.027s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info/dependency_links.txt
+[10.027s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info/PKG-INFO
+[10.027s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info/SOURCES.txt
+[10.033s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces
+[10.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.034s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg
+[10.035s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[10.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[10.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[10.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[10.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[10.040s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[10.041s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv
+[10.041s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[10.041s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[10.041s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[10.438s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...
+[10.440s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...
+[10.440s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...
+[10.517s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.529s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.529s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.536s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[10.537s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[10.538s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[10.539s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[10.539s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[10.539s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[10.540s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[10.544s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[10.544s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[10.544s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[10.544s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[10.546s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[10.546s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[10.547s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[10.553s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[10.553s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[10.553s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[10.553s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[10.555s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[10.555s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[10.556s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.558s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.558s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.559s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[10.564s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.565s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.565s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.568s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.569s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[10.569s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.578s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.579s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.579s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[10.579s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.579s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[10.583s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.584s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.584s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.584s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.584s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.584s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.591s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.591s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.591s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[10.591s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[10.591s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[10.621s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces

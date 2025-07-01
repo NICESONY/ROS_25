@@ -1,0 +1,63 @@
+running egg_info
+creating ../../build/turtlebot3_controller/turtlebot3_controller.egg-info
+writing ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build
+creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib
+creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/maps
+copying maps/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/maps
+creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+copying turtlebot3_controller/navigator.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+copying turtlebot3_controller/mission_manager.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+copying turtlebot3_controller/sensor_listener.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+copying turtlebot3_controller/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+copying turtlebot3_controller/obstacle_avoider.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+running install
+running install_lib
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/maps
+copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/maps/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/maps
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller/navigator.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller/mission_manager.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller/sensor_listener.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller/obstacle_avoider.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/maps/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/navigator.py to navigator.cpython-310.pyc
+byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/mission_manager.py to mission_manager.cpython-310.pyc
+byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/sensor_listener.py to sensor_listener.cpython-310.pyc
+byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc
+running install_data
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages
+copying resource/turtlebot3_controller -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+copying launch/bringup_core.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+copying launch/mission.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+copying launch/bringup_all.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+copying maps/carto_map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+copying maps/map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+copying maps/carto_map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+copying maps/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+copying maps/map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/config
+running install_egg_info
+Copying ../../build/turtlebot3_controller/turtlebot3_controller.egg-info to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mission_manager script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+Installing navigator script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+Installing obstacle_avoider script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+Installing sensor_listener script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+writing list of installed files to '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/install.log'
