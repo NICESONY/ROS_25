@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'sensor_listener = turtlebot3_controller.sensor_listener:main',
-            'navigator = turtlebot3_controller.navigator:main'
+            'navigator = turtlebot3_controller.navigator:main',
+            'obstacle_avoider = turtlebot3_controller.obstacle_avoider:main',
         ],
     },
 )

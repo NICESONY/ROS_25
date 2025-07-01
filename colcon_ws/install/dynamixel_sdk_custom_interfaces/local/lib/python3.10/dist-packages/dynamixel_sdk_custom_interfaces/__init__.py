@@ -1,1 +1,0 @@
-/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_py/dynamixel_sdk_custom_interfaces/__init__.py

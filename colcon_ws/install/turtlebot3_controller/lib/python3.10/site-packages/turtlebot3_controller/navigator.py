@@ -43,11 +43,9 @@ class Navigator(Node):
         self._get_result_future.add_done_callback(self.result_callback)
 
 
-
     def feedback_callback(self, feedback_msg):
         fb = feedback_msg.feedback
         self.get_logger().info(f'Remaining distance: {fb.distance_remaining:.2f} m')
-
 
 
     def result_callback(self, future):

@@ -1,0 +1,37 @@
+[4.438s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/src/test_node': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_node build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/install.log --single-version-externally-managed install_data
+[6.018s] running egg_info
+[6.018s] creating ../../build/test_node/test_node.egg-info
+[6.018s] writing ../../build/test_node/test_node.egg-info/PKG-INFO
+[6.018s] writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+[6.018s] writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+[6.025s] writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+[6.025s] writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+[6.025s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[6.025s] reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[6.030s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[6.033s] running build
+[6.033s] running build_py
+[6.033s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build
+[6.036s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build/lib
+[6.037s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build/lib/test_node
+[6.037s] copying test_node/my_node.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build/lib/test_node
+[6.037s] copying test_node/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build/lib/test_node
+[6.037s] running install
+[6.042s] running install_lib
+[6.045s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test_node
+[6.045s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build/lib/test_node/my_node.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test_node
+[6.045s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build/lib/test_node/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test_node
+[6.047s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test_node/my_node.py to my_node.cpython-310.pyc
+[6.049s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test_node/__init__.py to __init__.cpython-310.pyc
+[6.049s] running install_data
+[6.049s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index
+[6.054s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index/resource_index
+[6.054s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index/resource_index/packages
+[6.054s] copying resource/test_node -> /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index/resource_index/packages
+[6.054s] copying package.xml -> /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/test_node
+[6.054s] running install_egg_info
+[6.064s] Copying ../../build/test_node/test_node.egg-info to /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info
+[6.066s] running install_scripts
+[6.188s] Installing my_node script to /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/test_node
+[6.190s] writing list of installed files to '/home/ros25/ROS/ROS_25/colcon_ws/build/test_node/install.log'
+[6.322s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/src/test_node' returned '0': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_node build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/install.log --single-version-externally-managed install_data
