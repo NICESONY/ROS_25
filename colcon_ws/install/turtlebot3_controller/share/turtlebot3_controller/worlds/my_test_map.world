@@ -1,0 +1,17 @@
+<include>
+  <uri>model://sun</uri>
+</include>
+<!-- heightmap: 2D map.pgm을 수직 지형으로 -->
+<heightmap>
+  <uri>file://$(find turtlebot3_controller)/maps/home/test_map/map.pgm</uri>
+  <!-- map.yaml의 resolution/origin 값을 반영 -->
+  <size>10 10 2</size>            <!-- 가로 10m x 세로 10m, 최대 높이 2m -->
+  <pos>0 0 0</pos>               <!-- 월드 원점에 배치 -->
+</heightmap>
+
+
+<!-- TurtleBot3 모델 스폰 -->
+<include>
+  <uri>model://turtlebot3_burger</uri>
+  <pose>0 0 0.1 0 0 0</pose>  <!-- x y z yaw pitch roll -->
+</include>

@@ -12,6 +12,7 @@ config/nav2.yaml
 launch/bringup_all.launch.py
 launch/bringup_core.launch.py
 launch/mission.launch.py
+launch/test_map_launch.py
 maps/__init__.py
 maps/carto_map.pgm
 maps/carto_map.yaml
@@ -26,3 +27,4 @@ turtlebot3_controller/mission_manager.py
 turtlebot3_controller/navigator.py
 turtlebot3_controller/obstacle_avoider.py
 turtlebot3_controller/sensor_listener.py
+worlds/my_test_map.world

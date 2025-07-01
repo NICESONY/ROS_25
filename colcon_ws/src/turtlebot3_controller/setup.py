@@ -18,7 +18,7 @@ setup(
         # launch 폴더 안의 모든 .launch.py 파일
         (
             os.path.join('share', package_name, 'launch'),
-            glob('launch/*.launch.py')
+            glob('launch/*.py')
         ),
         # maps 폴더 안의 모든 .yaml 파일
         (
@@ -29,7 +29,12 @@ setup(
         (
             os.path.join('share', package_name, 'config'),
             glob('config/*.yaml')
-        )
+        ),
+        # worlds folder .world file
+                (
+            os.path.join('share', package_name, 'worlds'),
+            glob('worlds/*.world')
+        ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
