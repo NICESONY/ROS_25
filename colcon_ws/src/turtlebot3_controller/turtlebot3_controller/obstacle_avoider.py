@@ -36,8 +36,8 @@ class ObstacleAvoider(Node):
     def __init__(self):
         super().__init__('obstacle_avoider')
         self.declare_parameter('safety_distance', 0.5)   # [m]
-        self.declare_parameter('forward_speed', 0.2)     # [m/s]
-        self.declare_parameter('turn_speed', 0.5)        # [rad/s]
+        self.declare_parameter('forward_speed', 0.05)     # [m/s]
+        self.declare_parameter('turn_speed', 0.05)        # [rad/s]
         self.safety_distance = self.get_parameter('safety_distance').value
         self.forward_speed   = self.get_parameter('forward_speed').value
         self.turn_speed      = self.get_parameter('turn_speed').value
