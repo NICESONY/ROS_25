@@ -8,9 +8,9 @@ from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    pkg_share    = get_package_share_directory('turtlebot3_controller')
+    pkg_share  = get_package_share_directory('turtlebot3_controller')
     use_sim_time = LaunchConfiguration('use_sim_time')
-    map_yaml     = LaunchConfiguration('map_yaml')
+    map_yaml  = LaunchConfiguration('map_yaml')
 
     return LaunchDescription([
         # 0. 인자 선언
