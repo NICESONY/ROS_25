@@ -1,3 +1,4 @@
 [console_scripts]
+navigator = turtlebot3_controller.navigator:main
 sensor_listener = turtlebot3_controller.sensor_listener:main
 

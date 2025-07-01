@@ -1,0 +1,25 @@
+[7.648s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_controller': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_controller build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/install.log --single-version-externally-managed install_data
+[10.775s] running egg_info
+[10.776s] writing ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/PKG-INFO
+[10.786s] writing dependency_links to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/dependency_links.txt
+[10.791s] writing entry points to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/entry_points.txt
+[10.793s] writing requirements to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/requires.txt
+[10.803s] writing top-level names to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/top_level.txt
+[10.840s] reading manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'
+[10.855s] writing manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'
+[10.858s] running build
+[10.858s] running build_py
+[10.864s] copying turtlebot3_controller/navigator.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller
+[10.864s] running install
+[10.870s] running install_lib
+[10.881s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build/lib/turtlebot3_controller/navigator.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller
+[10.888s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/navigator.py to navigator.cpython-310.pyc
+[10.894s] running install_data
+[10.894s] running install_egg_info
+[10.920s] removing '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[10.935s] Copying ../../build/turtlebot3_controller/turtlebot3_controller.egg-info to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info
+[10.964s] running install_scripts
+[11.231s] Installing navigator script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+[11.234s] Installing sensor_listener script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+[11.242s] writing list of installed files to '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/install.log'
+[11.591s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_controller' returned '0': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_controller build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/install.log --single-version-externally-managed install_data

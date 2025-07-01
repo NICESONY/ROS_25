@@ -1,5 +1,7 @@
+/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/navigator.py
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/sensor_listener.py
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/__init__.py
+/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/__pycache__/navigator.cpython-310.pyc
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/__pycache__/sensor_listener.cpython-310.pyc
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/__pycache__/__init__.cpython-310.pyc
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages/turtlebot3_controller
@@ -11,4 +13,5 @@
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/entry_points.txt
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/requires.txt
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info/zip-safe
+/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller/navigator
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller/sensor_listener
