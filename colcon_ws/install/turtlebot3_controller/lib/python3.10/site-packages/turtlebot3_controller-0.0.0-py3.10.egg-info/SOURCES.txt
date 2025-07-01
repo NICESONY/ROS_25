@@ -16,6 +16,8 @@ launch/test_map_launch.py
 maps/__init__.py
 maps/carto_map.pgm
 maps/carto_map.yaml
+maps/home_map.pgm
+maps/home_map.yaml
 maps/map.pgm
 maps/map.yaml
 resource/turtlebot3_controller

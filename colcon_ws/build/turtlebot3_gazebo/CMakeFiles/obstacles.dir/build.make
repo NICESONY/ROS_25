@@ -132,8 +132,8 @@ libobstacles.so: /usr/lib/x86_64-linux-gnu/libccd.so.2.0
 libobstacles.so: /usr/lib/x86_64-linux-gnu/libm.so
 libobstacles.so: /usr/lib/x86_64-linux-gnu/libfcl.so
 libobstacles.so: /usr/lib/x86_64-linux-gnu/libassimp.so
-libobstacles.so: /usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7
-libobstacles.so: /usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7
+libobstacles.so: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so.1.9.8
+libobstacles.so: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so.1.9.8
 libobstacles.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
 libobstacles.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.2.1
 libobstacles.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.4.0

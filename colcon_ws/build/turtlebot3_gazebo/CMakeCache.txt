@@ -789,7 +789,7 @@ obstacle2_LIB_DEPENDS:STATIC=general;BulletSoftBody;general;BulletDynamics;gener
 obstacles_LIB_DEPENDS:STATIC=general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;SimTKcommon;general;SimTKmath;general;SimTKsimbody;general;dart;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;Boost::thread;general;Boost::system;general;Boost::filesystem;general;Boost::program_options;general;Boost::regex;general;Boost::iostreams;general;Boost::date_time;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;sdformat9::sdformat9;optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so;general;Boost::thread;general;Boost::date_time;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;ignition-common3::ignition-common3-graphics;
 
 //The directory containing a CMake configuration file for octomap.
-octomap_DIR:PATH=/usr/share/octomap
+octomap_DIR:PATH=/opt/ros/humble/share/octomap
 
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
@@ -831,10 +831,10 @@ pkgcfg_lib_PC_FCL_fcl:FILEPATH=/usr/lib/x86_64-linux-gnu/libfcl.so
 pkgcfg_lib_PC_FCL_m:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 
 //Path to a library.
-pkgcfg_lib_PC_FCL_octomap:FILEPATH=/usr/lib/x86_64-linux-gnu/liboctomap.so
+pkgcfg_lib_PC_FCL_octomap:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so
 
 //Path to a library.
-pkgcfg_lib_PC_FCL_octomath:FILEPATH=/usr/lib/x86_64-linux-gnu/liboctomath.so
+pkgcfg_lib_PC_FCL_octomath:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
 
 //Path to a library.
 pkgcfg_lib_TINYXML2_tinyxml2:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
@@ -1538,32 +1538,32 @@ PC_CURL_libcurl_INCLUDEDIR:INTERNAL=
 PC_CURL_libcurl_LIBDIR:INTERNAL=
 PC_CURL_libcurl_PREFIX:INTERNAL=
 PC_CURL_libcurl_VERSION:INTERNAL=
-PC_FCL_CFLAGS:INTERNAL=-std=c++11;-I/usr/include/eigen3
+PC_FCL_CFLAGS:INTERNAL=-std=c++11;-I/opt/ros/humble/include;-I/usr/include/eigen3
 PC_FCL_CFLAGS_I:INTERNAL=
 PC_FCL_CFLAGS_OTHER:INTERNAL=-std=c++11
 PC_FCL_FOUND:INTERNAL=1
 PC_FCL_INCLUDEDIR:INTERNAL=/usr/include
-PC_FCL_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
-PC_FCL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
+PC_FCL_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/include;/usr/include/eigen3
+PC_FCL_LDFLAGS:INTERNAL=-L/opt/ros/humble/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
 PC_FCL_LDFLAGS_OTHER:INTERNAL=
 PC_FCL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 PC_FCL_LIBRARIES:INTERNAL=fcl;ccd;m;octomap;octomath
-PC_FCL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_FCL_LIBRARY_DIRS:INTERNAL=/opt/ros/humble/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu
 PC_FCL_LIBS:INTERNAL=
 PC_FCL_LIBS_L:INTERNAL=
 PC_FCL_LIBS_OTHER:INTERNAL=
 PC_FCL_LIBS_PATHS:INTERNAL=
 PC_FCL_MODULE_NAME:INTERNAL=fcl
 PC_FCL_PREFIX:INTERNAL=/usr
-PC_FCL_STATIC_CFLAGS:INTERNAL=-std=c++11;-I/usr/include/eigen3
+PC_FCL_STATIC_CFLAGS:INTERNAL=-std=c++11;-I/opt/ros/humble/include;-I/usr/include/eigen3
 PC_FCL_STATIC_CFLAGS_I:INTERNAL=
 PC_FCL_STATIC_CFLAGS_OTHER:INTERNAL=-std=c++11
-PC_FCL_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
-PC_FCL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
+PC_FCL_STATIC_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/include;/usr/include/eigen3
+PC_FCL_STATIC_LDFLAGS:INTERNAL=-L/opt/ros/humble/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lfcl;-lccd;-lm;-loctomap;-loctomath
 PC_FCL_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_FCL_STATIC_LIBDIR:INTERNAL=
 PC_FCL_STATIC_LIBRARIES:INTERNAL=fcl;ccd;m;octomap;octomath
-PC_FCL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_FCL_STATIC_LIBRARY_DIRS:INTERNAL=/opt/ros/humble/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu
 PC_FCL_STATIC_LIBS:INTERNAL=
 PC_FCL_STATIC_LIBS_L:INTERNAL=
 PC_FCL_STATIC_LIBS_OTHER:INTERNAL=

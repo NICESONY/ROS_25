@@ -1,0 +1,42 @@
+[5.745s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[8.083s] running egg_info
+[8.085s] creating ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[8.088s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[8.091s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[8.095s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[8.098s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[8.098s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[8.106s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.119s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.124s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.124s] running build
+[8.124s] running build_py
+[8.130s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build
+[8.130s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib
+[8.134s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[8.134s] copying turtlebot3_teleop/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[8.135s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[8.138s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[8.148s] copying turtlebot3_teleop/script/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[8.148s] running install
+[8.155s] running install_lib
+[8.162s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[8.167s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[8.171s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[8.171s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[8.171s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[8.179s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[8.193s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[8.194s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[8.195s] running install_data
+[8.196s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/share/ament_index
+[8.196s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[8.199s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[8.200s] copying resource/turtlebot3_teleop -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[8.200s] copying package.xml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[8.201s] running install_egg_info
+[8.213s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.3.1-py3.10.egg-info
+[8.225s] running install_scripts
+[8.389s] Installing teleop_keyboard script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[8.397s] writing list of installed files to '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/install.log'
+[8.633s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
