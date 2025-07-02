@@ -1,6 +1,13 @@
 amcl:
   ros__parameters:
     use_sim_time: True
+    # ─── Gazebo spawn 과 일치시켜 주세요 ───
+    initial_pose_x: 2.1
+    initial_pose_y: 0.25
+    initial_pose_a: 0.0     # Gazebo 기본 yaw, 필요 시 변경
+    initial_cov_xx: 0.25
+    initial_cov_yy: 0.25
+    initial_cov_aa: 0.1
     alpha1: 0.2
     alpha2: 0.2
     alpha3: 0.2

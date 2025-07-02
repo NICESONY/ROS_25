@@ -8,6 +8,26 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from nav2_common.launch import RewrittenYaml
 
+"""
+
+Launch file for TurtleBot3 home2 environment with Nav2 and RViz2.
+
+전체 흐름 예시
+터미널 A (Bringup 전체 스택)
+
+ros2 launch turtlebot3_controller bringup_all_two.launch.py
+
+
+터미널 B (Patrol 모드 실행
+
+ros2 launch turtlebot3_controller patrol_mission.launch.py use_sim_time:=True
+터미널 A: Gazebo → SLAM 맵 기반 Localization → 휠 컨트롤러 → RViz
+
+터미널 B: PatrolManager 시작 → 로봇이 웨이포인트를 따라 순찰    
+
+
+"""
+
 def generate_launch_description():
     # 1) Gazebo world + 로봇 스폰 포함된 turtlebot3_home2.launch.py 사용
     pkg_gz = get_package_share_directory('turtlebot3_gazebo')
