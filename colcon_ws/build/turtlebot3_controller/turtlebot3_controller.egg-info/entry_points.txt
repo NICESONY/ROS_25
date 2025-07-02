@@ -1,8 +1,10 @@
 [console_scripts]
+initial_pose_publisher = turtlebot3_controller.initial_pose_publisher:main
 mission_manager = turtlebot3_controller.mission_manager:main
 navigator = turtlebot3_controller.navigator:main
 obstacle_avoider = turtlebot3_controller.obstacle_avoider:main
 patrol_manager = turtlebot3_controller.patrol_manager:main
 patrol_waypoints = turtlebot3_controller.patrol_waypoints:main
+scan_info_printer = turtlebot3_controller.scan_info_printer:main
 sensor_listener = turtlebot3_controller.sensor_listener:main
 

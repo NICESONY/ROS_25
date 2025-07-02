@@ -51,6 +51,8 @@ setup(
             'mission_manager = turtlebot3_controller.mission_manager:main',
             'patrol_manager = turtlebot3_controller.patrol_manager:main',
             'patrol_waypoints = turtlebot3_controller.patrol_waypoints:main',
+            'scan_info_printer = turtlebot3_controller.scan_info_printer:main',
+            'initial_pose_publisher = turtlebot3_controller.initial_pose_publisher:main',
         ],
     },
 )
