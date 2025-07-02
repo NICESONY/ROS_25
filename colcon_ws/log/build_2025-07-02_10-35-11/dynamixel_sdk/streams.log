@@ -1,0 +1,89 @@
+[0.052s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk -- -j2 -l2
+[0.297s] [100%] Built target dynamixel_sdk
+[0.474s] [100%] Built target ament_cmake_python_copy_dynamixel_sdk
+[1.449s] running egg_info
+[1.449s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.451s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.456s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.478s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.479s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.574s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[1.629s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk -- -j2 -l2
+[1.693s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk
+[1.734s] -- Install configuration: ""
+[1.735s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include/
+[1.735s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[1.736s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.736s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.737s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.737s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.738s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.738s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.738s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.738s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.738s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.739s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[1.740s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.741s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[1.741s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[1.741s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info
+[1.741s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/top_level.txt
+[1.742s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/dependency_links.txt
+[1.743s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/PKG-INFO
+[1.743s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info/SOURCES.txt
+[1.744s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk
+[1.744s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[1.745s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[1.745s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[1.745s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[1.745s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[1.746s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[1.746s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[1.746s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[1.747s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[1.747s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[1.747s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[1.748s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[1.748s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[1.748s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[1.748s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[1.748s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[1.748s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[1.749s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[1.749s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[1.749s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[1.749s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[1.751s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[1.751s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[1.751s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[1.751s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[1.893s] Listing '/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[1.904s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.905s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.906s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.906s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.907s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.907s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.908s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.908s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.908s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.909s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.909s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.911s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.911s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.921s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.921s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.922s] -- Up-to-date: /home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.947s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk

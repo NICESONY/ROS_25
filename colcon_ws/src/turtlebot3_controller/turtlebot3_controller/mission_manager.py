@@ -1,83 +1,60 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from nav2_msgs.action import NavigateToPose, NavigateThroughPoses
+from geometry_msgs.msg import Twist, PoseWithCovarianceStamped
+from nav2_msgs.action import NavigateToPose
 from rclpy.action import ActionClient
-from geometry_msgs.msg import PoseStamped
-from std_srvs.srv import Empty
-from std_msgs.msg import Bool
 
 class MissionManager(Node):
     def __init__(self):
         super().__init__('mission_manager')
-        # 액션 클라이언트
-        self.nav_to_pose_ac = ActionClient(self, NavigateToPose, 'navigate_to_pose')
-        self.nav_through_poses_ac = ActionClient(self, NavigateThroughPoses, 'navigate_through_poses')
-        # 서비스 클라이언트
-        self.clear_costmap_client = self.create_client(Empty, '/local_costmap/clear_entirely_local_costmap')
-        # 이벤트 구독 (LiDAR 트리거)
-        self.too_close_sub = self.create_subscription(Bool, '/event/too_close', self.too_close_cb, 10)
-        # 미션 시작
-        self.get_logger().info('Mission Manager started')
-        self.run_mission()
+        self.get_logger().info('MissionManager 시작')
 
-    def run_mission(self):
-        # 1단계: 통로 끝으로 이동
-        self.send_goal_pose( x=5.0, y=0.0 )
-        self.wait_for_result()
+        # 속도 직접 제어용 퍼블리셔
+        self.cmd_pub = self.create_publisher(Twist, 'cmd_vel', 10)
 
-        # 2단계: Waypoint 순회 (예시 3개)
-        waypoints = [
-            self.make_pose(2.0, 1.0, 0.0),
-            self.make_pose(4.0, 2.0, 1.57),
-            self.make_pose(1.0, 3.0, 3.14),
-        ]
-        self.send_through_poses(waypoints)
-        self.wait_for_result_through()
+        # 현재 위치 수신 (AMCL)
+        self.create_subscription(
+            PoseWithCovarianceStamped, 'amcl_pose',
+            self.pose_callback, 10)
 
-        self.get_logger().info('All tasks completed!')
+        # Nav2 액션 클라이언트
+        self.nav_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
 
-    def send_goal_pose(self, x, y, yaw=0.0):
-        goal_msg = NavigateToPose.Goal()
-        goal_msg.pose = self.make_pose(x, y, yaw)
-        self.nav_to_pose_ac.wait_for_server()
-        self._goal_handle = self.nav_to_pose_ac.send_goal_async(goal_msg)
-        self.get_logger().info(f'Sent navigate_to_pose: ({x}, {y})')
+        self.current_pose = None
+        self.state = 'IDLE'
+        self.create_timer(1.0, self.check_and_act)
 
-    def wait_for_result(self):
-        self._goal_handle.add_done_callback(lambda f: self.get_logger().info('Reached goal.'))
+    def pose_callback(self, msg):
+        self.current_pose = msg.pose.pose
 
-    def send_through_poses(self, poses):
-        goal_msg = NavigateThroughPoses.Goal()
-        goal_msg.poses = [PoseStamped(p.header, p.pose) for p in poses]
-        self.nav_through_poses_ac.wait_for_server()
-        self._tp_goal_handle = self.nav_through_poses_ac.send_goal_async(goal_msg)
-        self.get_logger().info('Sent navigate_through_poses')
+    def check_and_act(self):
+        if self.state == 'IDLE' and self.current_pose:
+            # 예시 목표: (1.0, 2.0)
+            goal_pose = PoseWithCovarianceStamped()
+            goal_pose.header.frame_id = 'map'
+            goal_pose.pose.pose.position.x = -0.7
+            goal_pose.pose.pose.position.y = 2.7
+            goal_pose.pose.pose.orientation.w = 0.5
 
-    def wait_for_result_through(self):
-        self._tp_goal_handle.add_done_callback(lambda f: self.get_logger().info('Completed waypoints.'))
+            self.send_goal(goal_pose)
+            self.state = 'NAVIGATING'
 
-    def too_close_cb(self, msg):
-        if msg.data:
-            self.get_logger().warn('Too close! clearing costmap and retrying...')
-            req = Empty.Request()
-            self.clear_costmap_client.call_async(req)
-
-    def make_pose(self, x, y, yaw):
-        ps = PoseStamped()
-        ps.header.frame_id = 'map'
-        ps.header.stamp = self.get_clock().now().to_msg()
-        ps.pose.position.x = x
-        ps.pose.position.y = y
-        from tf_transformations import quaternion_from_euler
-        q = quaternion_from_euler(0, 0, yaw)
-        ps.pose.orientation.x, ps.pose.orientation.y, ps.pose.orientation.z, ps.pose.orientation.w = q
-        return ps
+    def send_goal(self, goal_msg):
+        if not self.nav_client.wait_for_server(timeout_sec=5.0):
+            self.get_logger().error('Action 서버 미발견')
+            return
+        goal = NavigateToPose.Goal()
+        goal.pose = goal_msg
+        self.get_logger().info(f"Goal 전송: x={goal_msg.pose.pose.position.x}, "
+                               f"y={goal_msg.pose.pose.position.y}")
+        self.nav_client.send_goal_async(goal)
 
 def main(args=None):
     rclpy.init(args=args)
     node = MissionManager()
     rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
