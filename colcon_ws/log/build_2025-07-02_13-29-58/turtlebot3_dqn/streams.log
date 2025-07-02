@@ -1,0 +1,58 @@
+[12.320s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_machine_learning/turtlebot3_dqn': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_machine_learning:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_simulations:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_fake_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_dqn build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/install.log --single-version-externally-managed install_data
+[14.904s] running egg_info
+[14.908s] creating ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info
+[14.913s] writing ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/PKG-INFO
+[14.914s] writing dependency_links to ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/dependency_links.txt
+[14.917s] writing entry points to ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/entry_points.txt
+[14.918s] writing requirements to ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/requires.txt
+[14.919s] writing top-level names to ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/top_level.txt
+[14.920s] writing manifest file '../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/SOURCES.txt'
+[14.936s] reading manifest file '../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/SOURCES.txt'
+[14.941s] writing manifest file '../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info/SOURCES.txt'
+[14.950s] running build
+[14.950s] running build_py
+[14.955s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build
+[14.955s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib
+[14.956s] creating /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.956s] copying turtlebot3_dqn/dqn_agent.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.965s] copying turtlebot3_dqn/action_graph.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.965s] copying turtlebot3_dqn/dqn_environment.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.966s] copying turtlebot3_dqn/dqn_gazebo.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.974s] copying turtlebot3_dqn/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.974s] copying turtlebot3_dqn/result_graph.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.980s] copying turtlebot3_dqn/dqn_test.py -> /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn
+[14.981s] running install
+[14.989s] running install_lib
+[14.992s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[14.998s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/dqn_agent.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.000s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/action_graph.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.001s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/dqn_environment.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.001s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/dqn_gazebo.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.001s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.001s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/result_graph.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.002s] copying /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build/lib/turtlebot3_dqn/dqn_test.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn
+[15.004s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/dqn_agent.py to dqn_agent.cpython-310.pyc
+[15.011s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/action_graph.py to action_graph.cpython-310.pyc
+[15.018s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/dqn_environment.py to dqn_environment.cpython-310.pyc
+[15.027s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/dqn_gazebo.py to dqn_gazebo.cpython-310.pyc
+[15.033s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/__init__.py to __init__.cpython-310.pyc
+[15.033s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/result_graph.py to result_graph.cpython-310.pyc
+[15.037s] byte-compiling /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn/dqn_test.py to dqn_test.cpython-310.pyc
+[15.041s] running install_data
+[15.042s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/share/ament_index
+[15.043s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/share/ament_index/resource_index
+[15.043s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/share/ament_index/resource_index/packages
+[15.045s] copying resource/turtlebot3_dqn -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/share/ament_index/resource_index/packages
+[15.050s] copying package.xml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/share/turtlebot3_dqn
+[15.050s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/share/turtlebot3_dqn/launch
+[15.050s] running install_egg_info
+[15.060s] Copying ../../../build/turtlebot3_dqn/turtlebot3_dqn.egg-info to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3_dqn-1.0.1-py3.10.egg-info
+[15.070s] running install_scripts
+[15.184s] Installing action_graph script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+[15.189s] Installing dqn_agent script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+[15.196s] Installing dqn_environment script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+[15.197s] Installing dqn_gazebo script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+[15.197s] Installing dqn_test script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+[15.197s] Installing result_graph script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+[15.197s] writing list of installed files to '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/install.log'
+[16.157s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_machine_learning/turtlebot3_dqn' returned '0': AMENT_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_machine_learning:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_simulations:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_fake_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_dqn build --build-base /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/build install --record /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn/install.log --single-version-externally-managed install_data

@@ -1,1 +1,3 @@
-/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Response.msg
+
+# Response
+int32 position

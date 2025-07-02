@@ -1,0 +1,46 @@
+[0.037s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer
+[0.203s] -- The C compiler identification is GNU 11.4.0
+[0.425s] -- The CXX compiler identification is GNU 11.4.0
+[0.458s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.697s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.698s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.729s] -- Detecting CXX compiler ABI info
+[1.019s] -- Detecting CXX compiler ABI info - done
+[1.035s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.035s] -- Detecting CXX compile features
+[1.035s] -- Detecting CXX compile features - done
+[1.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.538s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.063s] -- Configuring done
+[2.076s] -- Generating done
+[2.079s] -- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer
+[2.099s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer
+[2.099s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer -- -j2 -l2
+[2.249s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer -- -j2 -l2
+[2.255s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer
+[2.294s] -- Install configuration: ""
+[2.296s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[2.297s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[2.298s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[2.298s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[2.298s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[2.299s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[2.299s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[2.301s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[2.301s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[2.302s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[2.302s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[2.303s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[2.303s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[2.304s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.304s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.305s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.305s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.305s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.306s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.306s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.307s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.307s] -- Installing: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.311s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_cartographer

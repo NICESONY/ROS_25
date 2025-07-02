@@ -1,1 +1,2 @@
-/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo/ament_cmake_environment_hooks/local_setup.dsv
+source;share/turtlebot3_manipulation_gazebo/environment/ament_prefix_path.sh
+source;share/turtlebot3_manipulation_gazebo/environment/path.sh

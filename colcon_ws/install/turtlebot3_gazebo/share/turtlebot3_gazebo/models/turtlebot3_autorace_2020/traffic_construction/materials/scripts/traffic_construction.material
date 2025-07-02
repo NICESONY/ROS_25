@@ -1,1 +1,14 @@
-/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material
+material traffic_construction
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture traffic_construction.png
+      }
+    }
+  }
+}
+

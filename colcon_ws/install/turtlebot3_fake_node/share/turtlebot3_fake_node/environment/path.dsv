@@ -1,1 +1,1 @@
-/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_fake_node/ament_cmake_environment_hooks/path.dsv
+prepend-non-duplicate-if-exists;PATH;bin

@@ -1,1 +1,1 @@
-/home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/dynamixel_sdk.egg-info/top_level.txt
+dynamixel_sdk

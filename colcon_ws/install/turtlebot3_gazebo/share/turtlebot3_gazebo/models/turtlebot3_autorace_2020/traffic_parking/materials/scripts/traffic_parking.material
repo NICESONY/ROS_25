@@ -1,1 +1,14 @@
-/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material
+material traffic_parking
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture traffic_parking.png
+      }
+    }
+  }
+}
+

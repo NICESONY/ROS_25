@@ -1,1 +1,1 @@
-/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3/ament_cmake_environment_hooks/ament_prefix_path.dsv
+prepend-non-duplicate;AMENT_PREFIX_PATH;
