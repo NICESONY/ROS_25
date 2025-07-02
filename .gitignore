@@ -1,1 +1,7 @@
 colcon_ws/src/turtlebot3_simulations/
+
+## git rm -r --cached colcon_ws/src/DynamixelSDK/
+## git rm -r --cached colcon_ws/src/turtlebot3/
+## git rm -r --cached colcon_ws/src/turtlebot3_machine_learning/
+## git rm -r --cached colcon_ws/src/turtlebot3_msgs/
+## git rm -r --cached colcon_ws/src/turtlebot3_simulations/
