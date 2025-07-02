@@ -19,6 +19,7 @@ launch/bringup_core.launch.py
 launch/full_navigation.launch.py
 launch/mission.launch.py
 launch/mission_manager.launch.py
+launch/patrol_mission.launch.py
 launch/rviz_test.launch.py
 launch/test_map_launch.py
 maps/__init__.py
@@ -42,5 +43,7 @@ turtlebot3_controller/__init__.py
 turtlebot3_controller/mission_manager.py
 turtlebot3_controller/navigator.py
 turtlebot3_controller/obstacle_avoider.py
+turtlebot3_controller/patrol_manager.py
+turtlebot3_controller/patrol_waypoints.py
 turtlebot3_controller/sensor_listener.py
 worlds/my_test_map.world

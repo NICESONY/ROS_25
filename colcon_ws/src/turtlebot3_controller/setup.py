@@ -49,6 +49,8 @@ setup(
             'navigator = turtlebot3_controller.navigator:main',
             'obstacle_avoider = turtlebot3_controller.obstacle_avoider:main',
             'mission_manager = turtlebot3_controller.mission_manager:main',
+            'patrol_manager = turtlebot3_controller.patrol_manager:main',
+            'patrol_waypoints = turtlebot3_controller.patrol_waypoints:main',
         ],
     },
 )
