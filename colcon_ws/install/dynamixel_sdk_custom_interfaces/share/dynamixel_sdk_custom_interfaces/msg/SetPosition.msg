@@ -1,3 +1,1 @@
-# Messages
-uint8 id
-int32 position
+/home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

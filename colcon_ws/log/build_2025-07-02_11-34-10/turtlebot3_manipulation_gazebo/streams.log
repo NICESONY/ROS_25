@@ -1,0 +1,116 @@
+[0.139s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo
+[1.109s] -- The C compiler identification is GNU 11.4.0
+[1.607s] -- The CXX compiler identification is GNU 11.4.0
+[1.696s] -- Detecting C compiler ABI info
+[2.341s] -- Detecting C compiler ABI info - done
+[2.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.431s] -- Detecting C compile features
+[2.443s] -- Detecting C compile features - done
+[2.465s] -- Detecting CXX compiler ABI info
+[3.089s] -- Detecting CXX compiler ABI info - done
+[3.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.181s] -- Detecting CXX compile features
+[3.188s] -- Detecting CXX compile features - done
+[3.268s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.837s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.779s] -- Configuring done
+[6.805s] -- Generating done
+[6.833s] -- Build files have been written to: /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo
+[6.898s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo
+[6.925s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo -- -j2 -l2
+[7.586s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --build /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo -- -j2 -l2
+[7.607s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo
+[7.782s] -- Install configuration: ""
+[7.791s] -- Execute custom install script
+[7.803s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/config/gazebo_controller_manager.yaml
+[7.954s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/config/hardware_controller_manager.yaml
+[7.998s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/gazebo/materials.xacro
+[8.069s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/gazebo/open_manipulator_x.gazebo.xacro
+[8.130s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[8.243s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/launch/base.launch.py
+[8.427s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/launch/fake.launch.py
+[8.546s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/launch/gazebo.launch.py
+[8.604s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/launch/turtlebot3_home_service_challenge.launch.py
+[8.718s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[8.792s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/rviz/turtlebot3_manipulation.rviz
+[8.838s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/urdf/open_manipulator_x.urdf.xacro
+[8.907s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/urdf/turtlebot3_manipulation.urdf.xacro
+[9.057s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/urdf/turtlebot3_waffle_pi.urdf.xacro
+[9.134s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/worlds/turtlebot3_home_service_challenge.world
+[9.265s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker0/materials/textures/Marker0.png
+[9.338s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker0/meshes/Marker0.dae
+[9.577s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker0/model-1_4.sdf
+[9.707s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker0/model-1_5.sdf
+[9.793s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker0/model.config
+[9.885s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker0/model.sdf
+[9.958s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker1/materials/textures/Marker1.png
+[10.024s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker1/meshes/Marker1.dae
+[10.128s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker1/model-1_4.sdf
+[10.228s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker1/model-1_5.sdf
+[10.278s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker1/model.config
+[10.344s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker1/model.sdf
+[10.417s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker2/materials/textures/Marker2.png
+[10.515s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker2/meshes/Marker2.dae
+[10.590s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker2/model-1_4.sdf
+[10.640s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker2/model-1_5.sdf
+[10.702s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker2/model.config
+[10.759s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker2/model.sdf
+[10.849s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker3/materials/textures/Marker3.png
+[10.944s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker3/meshes/Marker3.dae
+[11.024s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker3/model-1_4.sdf
+[11.157s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker3/model-1_5.sdf
+[11.234s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker3/model.config
+[11.296s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker3/model.sdf
+[11.340s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker4/materials/textures/Marker4.png
+[11.373s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker4/meshes/Marker4.dae
+[11.418s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker4/model-1_4.sdf
+[11.439s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker4/model-1_5.sdf
+[11.501s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker4/model.config
+[11.552s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker4/model.sdf
+[11.579s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker5/materials/textures/Marker5.png
+[11.612s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker5/meshes/Marker5.dae
+[11.662s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker5/model-1_4.sdf
+[11.693s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker5/model-1_5.sdf
+[11.713s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker5/model.config
+[11.733s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker5/model.sdf
+[11.767s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker6/materials/textures/Marker6.png
+[11.808s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker6/meshes/Marker6.dae
+[11.844s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker6/model-1_4.sdf
+[11.891s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker6/model-1_5.sdf
+[11.922s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker6/model.config
+[11.954s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker6/model.sdf
+[11.992s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker7/materials/textures/Marker7.png
+[12.031s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker7/meshes/Marker7.dae
+[12.074s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker7/model-1_4.sdf
+[12.110s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker7/model-1_5.sdf
+[12.147s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker7/model.config
+[12.210s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker7/model.sdf
+[12.240s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker8/materials/textures/Marker8.png
+[12.290s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker8/meshes/Marker8.dae
+[12.324s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker8/model-1_4.sdf
+[12.349s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker8/model-1_5.sdf
+[12.407s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker8/model.config
+[12.442s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker8/model.sdf
+[12.486s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker9/materials/textures/Marker9.png
+[12.526s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker9/meshes/Marker9.dae
+[12.564s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker9/model-1_4.sdf
+[12.601s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker9/model-1_5.sdf
+[12.623s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker9/model.config
+[12.651s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/models/turtlebot3_home_service_challenge/marker9/model.sdf
+[12.687s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_gazebo
+[12.708s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_gazebo
+[12.739s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/environment/ament_prefix_path.sh
+[12.767s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/environment/ament_prefix_path.dsv
+[12.806s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/environment/path.sh
+[12.840s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/environment/path.dsv
+[12.875s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/local_setup.bash
+[12.906s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/local_setup.sh
+[12.934s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/local_setup.zsh
+[12.968s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/local_setup.dsv
+[12.995s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/package.dsv
+[13.021s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/ament_index/resource_index/packages/turtlebot3_manipulation_gazebo
+[13.057s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/cmake/turtlebot3_manipulation_gazeboConfig.cmake
+[13.095s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/cmake/turtlebot3_manipulation_gazeboConfig-version.cmake
+[13.137s] -- Symlinking: /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo/share/turtlebot3_manipulation_gazebo/package.xml
+[13.189s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/opt/ros/humble /usr/bin/cmake --install /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_manipulation_gazebo

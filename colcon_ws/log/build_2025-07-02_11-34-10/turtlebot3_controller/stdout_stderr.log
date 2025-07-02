@@ -1,0 +1,51 @@
+running develop
+running egg_info
+creating turtlebot3_controller.egg-info
+writing turtlebot3_controller.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_controller.egg-info/dependency_links.txt
+writing entry points to turtlebot3_controller.egg-info/entry_points.txt
+writing requirements to turtlebot3_controller.egg-info/requires.txt
+writing top-level names to turtlebot3_controller.egg-info/top_level.txt
+writing manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3-controller.egg-link (link to .)
+Installing mission_manager script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+Installing navigator script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+Installing obstacle_avoider script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+Installing sensor_listener script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller
+
+Installed /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller
+running symlink_data
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/resource/turtlebot3_controller -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/ament_index/resource_index/packages
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/package.xml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/launch/bringup_all_two.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/launch/bringup_core.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/launch/test_map_launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/launch/mission.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/launch/bringup_all.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/launch/bringup.launch.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/launch
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home2_map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/carto_map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home_map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/carto_map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home_test_map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home_test2_map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home_test_map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home_test2_map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home2_map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/__init__.py -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/map.pgm -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/maps/home_map.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/maps
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/config
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/config/diff_controllers.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/config
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/config/nav2.yaml -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/config
+creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/worlds
+symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/worlds/my_test_map.world -> /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/share/turtlebot3_controller/worlds

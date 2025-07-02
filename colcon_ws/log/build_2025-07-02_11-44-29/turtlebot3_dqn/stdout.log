@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing turtlebot3_dqn.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_dqn.egg-info/dependency_links.txt
+writing entry points to turtlebot3_dqn.egg-info/entry_points.txt
+writing requirements to turtlebot3_dqn.egg-info/requires.txt
+writing top-level names to turtlebot3_dqn.egg-info/top_level.txt
+reading manifest file 'turtlebot3_dqn.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_dqn.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages/turtlebot3-dqn.egg-link (link to .)
+Installing action_graph script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+Installing dqn_agent script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+Installing dqn_environment script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+Installing dqn_gazebo script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+Installing dqn_test script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+Installing result_graph script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/turtlebot3_dqn
+
+Installed /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_dqn
+running symlink_data

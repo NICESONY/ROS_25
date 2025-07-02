@@ -1,0 +1,1 @@
+/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_controller/launch/bringup_core.launch.py

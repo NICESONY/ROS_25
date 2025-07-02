@@ -1,0 +1,24 @@
+[5.053s] Invoking command in '/home/ros25/ROS/ROS_25/colcon_ws/build/test_node': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build --no-deps symlink_data
+[6.952s] running develop
+[7.950s] running egg_info
+[7.954s] creating test_node.egg-info
+[7.954s] writing test_node.egg-info/PKG-INFO
+[7.955s] writing dependency_links to test_node.egg-info/dependency_links.txt
+[7.955s] writing entry points to test_node.egg-info/entry_points.txt
+[7.955s] writing requirements to test_node.egg-info/requires.txt
+[7.955s] writing top-level names to test_node.egg-info/top_level.txt
+[7.957s] writing manifest file 'test_node.egg-info/SOURCES.txt'
+[7.958s] reading manifest file 'test_node.egg-info/SOURCES.txt'
+[7.962s] writing manifest file 'test_node.egg-info/SOURCES.txt'
+[7.973s] running build_ext
+[7.976s] Creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages/test-node.egg-link (link to .)
+[7.982s] Installing my_node script to /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/test_node
+[7.982s] 
+[7.982s] Installed /home/ros25/ROS/ROS_25/colcon_ws/build/test_node
+[7.982s] running symlink_data
+[7.983s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index
+[7.984s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index/resource_index
+[7.984s] creating /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index/resource_index/packages
+[7.985s] symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/resource/test_node -> /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/ament_index/resource_index/packages
+[7.987s] symbolically linking /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/package.xml -> /home/ros25/ROS/ROS_25/colcon_ws/install/test_node/share/test_node
+[8.098s] Invoked command in '/home/ros25/ROS/ROS_25/colcon_ws/build/test_node' returned '0': PYTHONPATH=/home/ros25/ROS/ROS_25/colcon_ws/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros25/ROS/ROS_25/colcon_ws/build/test_node/build --no-deps symlink_data
