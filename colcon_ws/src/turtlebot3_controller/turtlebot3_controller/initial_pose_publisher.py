@@ -6,30 +6,41 @@ from geometry_msgs.msg import PoseWithCovarianceStamped
 class InitialPosePublisher(Node):
     def __init__(self):
         super().__init__('initial_pose_publisher')
-        pub = self.create_publisher(PoseWithCovarianceStamped, '/initialpose', 10)
-        # 초기 포즈 한 번만 퍼블리시
+        self.pub = self.create_publisher(
+            PoseWithCovarianceStamped,
+            '/initialpose', 10
+        )
+
+        # 한 번만 퍼블리시하기 위해 타이머 설정
+        self.timer = self.create_timer(0.5, self.publish_and_shutdown)
+
+    def publish_and_shutdown(self):
         msg = PoseWithCovarianceStamped()
+        # Header
         msg.header.frame_id = 'map'
         msg.header.stamp = self.get_clock().now().to_msg()
-        msg.pose.pose.position.x = 2.1    # Gazebo 스폰 x_pose
-        msg.pose.pose.position.y = 0.25   # Gazebo 스폰 y_pose
-        msg.pose.pose.orientation.w = 1.0 # Gazebo 스폰 yaw = 0
-        # covariance는 대각만 0.25로 간단히
-        cov = [0.25 if i%7==0 else 0.0 for i in range(36)]
+        # Position (Gazebo 스폰 좌표와 동일하게)
+        msg.pose.pose.position.x = float(self.declare_parameter('x', 2.1).value)
+        msg.pose.pose.position.y = float(self.declare_parameter('y', 0.25).value)
+        msg.pose.pose.position.z = 0.0
+        # Orientation (yaw → quaternion)
+        yaw = float(self.declare_parameter('a', 0.0).value)
+        msg.pose.pose.orientation.w = float(__import__('math').cos(yaw/2.0))
+        msg.pose.pose.orientation.x = 0.0
+        msg.pose.pose.orientation.y = 0.0
+        msg.pose.pose.orientation.z = float(__import__('math').sin(yaw/2.0))
+        # Covariance (대각 0.25)
+        cov = [0.25 if i % 7 == 0 else 0.0 for i in range(36)]
         msg.pose.covariance = cov
-        # 약간 딜레이 후에 퍼블리시
-        self.create_timer(0.5, lambda: self.publish_and_shutdown(pub, msg))
 
-    def publish_and_shutdown(self, pub, msg):
-        pub.publish(msg)
-        self.get_logger().info("Published initial pose to /initialpose")
+        self.pub.publish(msg)
+        self.get_logger().info('📍 Published initial pose to /initialpose')
         rclpy.shutdown()
 
 def main(args=None):
     rclpy.init(args=args)
     node = InitialPosePublisher()
     rclpy.spin(node)
-    node.destroy_node()
 
 if __name__ == '__main__':
     main()

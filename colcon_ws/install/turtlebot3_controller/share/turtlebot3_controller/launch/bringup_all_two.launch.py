@@ -3,10 +3,7 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import (
-    IncludeLaunchDescription,
-    DeclareLaunchArgument
-)
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
@@ -25,25 +22,31 @@ def generate_launch_description():
         'y_pose', default_value='0.25',
         description='Robot spawn Y'
     )
+    declare_yaw = DeclareLaunchArgument(
+        'yaw_pose', default_value='0.0',
+        description='Robot spawn yaw (rad)'
+    )
 
     use_sim_time = LaunchConfiguration('use_sim_time')
     x_pose       = LaunchConfiguration('x_pose')
     y_pose       = LaunchConfiguration('y_pose')
+    yaw_pose     = LaunchConfiguration('yaw_pose')
 
     # 패키지 경로
     pkg_gazebo = get_package_share_directory('turtlebot3_gazebo')
     pkg_nav2   = get_package_share_directory('turtlebot3_navigation2')
     pkg_self   = get_package_share_directory('turtlebot3_controller')
 
-    # 1) Gazebo + spawn
+    # 1) Gazebo + spawn (x, y, yaw 모두 인자로)
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_gazebo, 'launch', 'turtlebot3_home2.launch.py')
         ),
         launch_arguments={
             'use_sim_time': use_sim_time,
-            'x_pose': x_pose,
-            'y_pose': y_pose
+            'x_pose':       x_pose,
+            'y_pose':       y_pose,
+            'yaw':          yaw_pose,
         }.items()
     )
 
@@ -52,8 +55,8 @@ def generate_launch_description():
         package='tf2_ros', executable='static_transform_publisher',
         name='static_map_to_odom', output='screen',
         arguments=[
-            x_pose, y_pose, '0.0',   # x, y, z
-            '0.0', '0.0', '0.0',     # roll, pitch, yaw
+            x_pose, y_pose, '0.0',      # x, y, z
+            '0.0', '0.0', yaw_pose,     # roll, pitch, yaw
             'map', 'odom'
         ]
     )
@@ -63,8 +66,8 @@ def generate_launch_description():
         package='tf2_ros', executable='static_transform_publisher',
         name='static_base_to_scan', output='screen',
         arguments=[
-            '0.0','0.0','0.1',       # sensor offset z
-            '0.0','0.0','0.0',       # roll, pitch, yaw
+            '0.0','0.0','0.1',           # sensor offset z
+            '0.0','0.0','0.0',           # roll, pitch, yaw
             'base_link','base_scan'
         ]
     )
@@ -75,7 +78,12 @@ def generate_launch_description():
         executable='initial_pose_publisher',
         name='initial_pose_publisher',
         output='screen',
-        parameters=[{'use_sim_time': use_sim_time}],
+        parameters=[
+            {'use_sim_time': use_sim_time},
+            {'x': x_pose},
+            {'y': y_pose},
+            {'a': yaw_pose},
+        ],
     )
 
     # 2) Official Nav2 stack include
@@ -87,7 +95,6 @@ def generate_launch_description():
             'use_sim_time': use_sim_time,
             'map': os.path.join(pkg_self, 'maps', 'home2_map.yaml'),
             'params_file': os.path.join(pkg_self, 'config', 'nav2.yaml'),
-            'rviz': 'true'
         }.items()
     )
 
@@ -124,6 +131,7 @@ def generate_launch_description():
     ld.add_action(declare_sim_time)
     ld.add_action(declare_x)
     ld.add_action(declare_y)
+    ld.add_action(declare_yaw)
 
     # bringup: Gazebo + TF + 초기 pose
     ld.add_action(gazebo_launch)
