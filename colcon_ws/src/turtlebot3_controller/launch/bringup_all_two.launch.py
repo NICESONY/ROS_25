@@ -23,9 +23,9 @@ def generate_launch_description():
     declare_spawn_yaw  = DeclareLaunchArgument('spawn_yaw', default_value='0.0',
                                                description='Gazebo spawn yaw (rad)')
     # ▶ AMCL 초기 포즈 전용 인자
-    declare_init_x     = DeclareLaunchArgument('init_x', default_value='2.1',
+    declare_init_x     = DeclareLaunchArgument('init_x', default_value='0.0',
                                                description='AMCL initial X')
-    declare_init_y     = DeclareLaunchArgument('init_y', default_value='0.25',
+    declare_init_y     = DeclareLaunchArgument('init_y', default_value='0.0',
                                                description='AMCL initial Y')
     declare_init_yaw   = DeclareLaunchArgument('init_yaw', default_value='0.0',
                                                description='AMCL initial yaw (rad)')
@@ -98,7 +98,8 @@ def generate_launch_description():
     ctrl_node = Node(
         package='controller_manager', executable='ros2_control_node',
         name='controller_manager', output='screen',
-        parameters=[os.path.join(pkg_self,'config','diff_controllers.yaml')],
+        parameters=[os.path.join(pkg_self,'config','diff_controllers.yaml'),
+                    {'use_sim_time': use_sim_time}],
     )
     spawner_js = Node(
         package='controller_manager', executable='spawner',

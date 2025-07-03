@@ -25,6 +25,12 @@ launch/test_map_launch.py
 maps/__init__.py
 maps/carto_map.pgm
 maps/carto_map.yaml
+maps/class2_map.pgm
+maps/class2_map.yaml
+maps/class3_map.pgm
+maps/class3_map.yaml
+maps/class_map.pgm
+maps/class_map.yaml
 maps/home2_map.pgm
 maps/home2_map.yaml
 maps/home_map.pgm
