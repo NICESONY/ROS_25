@@ -13,27 +13,30 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # ───────── Launch arguments ─────────
-    declare_sim_time = DeclareLaunchArgument(
-        'use_sim_time', default_value='true',
-        description='Use simulation clock'
-    )
-    declare_x = DeclareLaunchArgument(
-        'x_pose', default_value='2.1',
-        description='Gazebo spawn X'
-    )
-    declare_y = DeclareLaunchArgument(
-        'y_pose', default_value='0.25',
-        description='Gazebo spawn Y'
-    )
-    declare_yaw = DeclareLaunchArgument(
-        'yaw_pose', default_value='0.0',
-        description='Gazebo spawn yaw (rad)'
-    )
+    declare_sim_time   = DeclareLaunchArgument('use_sim_time', default_value='true',
+                                               description='Use simulation clock')
+    # ▶ Gazebo 스폰 전용 인자
+    declare_spawn_x    = DeclareLaunchArgument('spawn_x', default_value='2.1',
+                                               description='Gazebo spawn X')
+    declare_spawn_y    = DeclareLaunchArgument('spawn_y', default_value='0.25',
+                                               description='Gazebo spawn Y')
+    declare_spawn_yaw  = DeclareLaunchArgument('spawn_yaw', default_value='0.0',
+                                               description='Gazebo spawn yaw (rad)')
+    # ▶ AMCL 초기 포즈 전용 인자
+    declare_init_x     = DeclareLaunchArgument('init_x', default_value='2.1',
+                                               description='AMCL initial X')
+    declare_init_y     = DeclareLaunchArgument('init_y', default_value='0.25',
+                                               description='AMCL initial Y')
+    declare_init_yaw   = DeclareLaunchArgument('init_yaw', default_value='0.0',
+                                               description='AMCL initial yaw (rad)')
 
     use_sim_time = LaunchConfiguration('use_sim_time')
-    x_pose       = LaunchConfiguration('x_pose')
-    y_pose       = LaunchConfiguration('y_pose')
-    yaw_pose     = LaunchConfiguration('yaw_pose')
+    spawn_x      = LaunchConfiguration('spawn_x')
+    spawn_y      = LaunchConfiguration('spawn_y')
+    spawn_yaw    = LaunchConfiguration('spawn_yaw')
+    init_x       = LaunchConfiguration('init_x')
+    init_y       = LaunchConfiguration('init_y')
+    init_yaw     = LaunchConfiguration('init_yaw')
 
     # ───────── 패키지 경로 ─────────
     pkg_gazebo = get_package_share_directory('turtlebot3_gazebo')
@@ -47,9 +50,9 @@ def generate_launch_description():
         ),
         launch_arguments={
             'use_sim_time': use_sim_time,
-            'x_pose':       x_pose,
-            'y_pose':       y_pose,
-            'yaw':          yaw_pose,
+            'x_pose':       spawn_x,
+            'y_pose':       spawn_y,
+            'yaw':          spawn_yaw,
         }.items()
     )
 
@@ -72,9 +75,9 @@ def generate_launch_description():
         output='screen',
         parameters=[
             {'use_sim_time': use_sim_time},
-            {'x': x_pose},
-            {'y': y_pose},
-            {'a': yaw_pose},
+            {'x': init_x},
+            {'y': init_y},
+            {'a': init_yaw},
         ],
     )
 
@@ -122,9 +125,12 @@ def generate_launch_description():
     # ───────── LaunchDescription 조립 ─────────
     ld = LaunchDescription([
         declare_sim_time,
-        declare_x,
-        declare_y,
-        declare_yaw,
+        declare_spawn_x,
+        declare_spawn_y,
+        declare_spawn_yaw,
+        declare_init_x,
+        declare_init_y,
+        declare_init_yaw,
         gazebo_launch,
         static_base_to_scan,
         initial_pose_publisher,
