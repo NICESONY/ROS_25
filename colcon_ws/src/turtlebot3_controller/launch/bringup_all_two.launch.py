@@ -7,6 +7,7 @@ from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
 from nav2_common.launch import RewrittenYaml
 
 def generate_launch_description():
@@ -22,8 +23,8 @@ def generate_launch_description():
     x_pose       = LaunchConfiguration('x_pose')
     y_pose       = LaunchConfiguration('y_pose')
 
-    pkg_gz  = get_package_share_directory('turtlebot3_gazebo')
-    pkg_self= get_package_share_directory('turtlebot3_controller')
+    pkg_gz   = get_package_share_directory('turtlebot3_gazebo')
+    pkg_self = get_package_share_directory('turtlebot3_controller')
 
     # 1) Gazebo + spawn
     gazebo_launch = IncludeLaunchDescription(
@@ -36,7 +37,7 @@ def generate_launch_description():
         }.items()
     )
 
-    # 1.1) map→odom
+    # 1.1) map → odom
     static_map_to_odom = Node(
         package='tf2_ros', executable='static_transform_publisher',
         name='static_map_to_odom', output='screen',
@@ -45,7 +46,7 @@ def generate_launch_description():
                     'map', 'odom' ]
     )
 
-    # 1.2) base_link→base_scan
+    # 1.2) base_link → base_scan
     static_base_to_scan = Node(
         package='tf2_ros', executable='static_transform_publisher',
         name='static_base_to_scan', output='screen',
@@ -61,12 +62,24 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}],
     )
 
-    # 2) Nav2 params with your map
+    # 2) Nav2 params with your map + explicit BT XML paths
     map_yaml = os.path.join(pkg_self, 'maps', 'home2_map.yaml')
     nav2_params = RewrittenYaml(
         source_file=os.path.join(pkg_self, 'config', 'nav2.yaml'),
         root_key='',
-        param_rewrites={'yaml_filename': map_yaml},
+        param_rewrites={
+            'yaml_filename': map_yaml,
+            'default_nav_to_pose_bt_xml': os.path.join(
+                FindPackageShare('nav2_bt_navigator').find('nav2_bt_navigator'),
+                'behavior_trees',
+                'navigate_to_pose_w_replanning_and_recovery.xml'
+            ),
+            'default_nav_through_poses_bt_xml': os.path.join(
+                FindPackageShare('nav2_bt_navigator').find('nav2_bt_navigator'),
+                'behavior_trees',
+                'navigate_through_poses_w_replanning_and_recovery.xml'
+            ),
+        },
         convert_types=True,
     )
 

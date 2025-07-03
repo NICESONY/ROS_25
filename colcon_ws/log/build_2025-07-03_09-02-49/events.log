@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.003161] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.003260] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.003306] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.003344] (-) JobUnselected: {'identifier': 'test_node'}
+[0.003380] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.003414] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003447] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.003480] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003513] (-) JobUnselected: {'identifier': 'turtlebot3_dqn'}
+[0.003545] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003578] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003609] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003640] (-) JobUnselected: {'identifier': 'turtlebot3_machine_learning'}
+[0.003673] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_gazebo'}
+[0.003704] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003736] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003767] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003799] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003863] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003912] (turtlebot3_controller) JobQueued: {'identifier': 'turtlebot3_controller', 'dependencies': OrderedDict()}
+[0.010440] (turtlebot3_controller) JobStarted: {'identifier': 'turtlebot3_controller'}
+[0.100707] (-) TimerEvent: {}
+[0.204577] (-) TimerEvent: {}
+[0.307178] (-) TimerEvent: {}
+[0.411973] (-) TimerEvent: {}
+[0.512932] (-) TimerEvent: {}
+[0.616966] (-) TimerEvent: {}
+[0.721956] (-) TimerEvent: {}
+[0.822484] (-) TimerEvent: {}
+[0.926625] (-) TimerEvent: {}
+[1.029582] (-) TimerEvent: {}
+[1.133937] (-) TimerEvent: {}
+[1.235983] (-) TimerEvent: {}
+[1.349467] (-) TimerEvent: {}
+[1.449959] (-) TimerEvent: {}
+[1.552933] (-) TimerEvent: {}
+[1.654947] (-) TimerEvent: {}
+[1.763655] (-) TimerEvent: {}
+[1.866144] (-) TimerEvent: {}
+[1.971729] (-) TimerEvent: {}
+[2.075182] (-) TimerEvent: {}
+[2.184047] (-) TimerEvent: {}
+[2.285444] (-) TimerEvent: {}
+[2.392963] (-) TimerEvent: {}
+[2.495956] (-) TimerEvent: {}
+[2.602183] (-) TimerEvent: {}
+[2.704595] (-) TimerEvent: {}
+[2.811694] (-) TimerEvent: {}
+[2.916398] (-) TimerEvent: {}
+[3.017564] (-) TimerEvent: {}
+[3.120958] (-) TimerEvent: {}
+[3.221491] (-) TimerEvent: {}
+[3.325948] (-) TimerEvent: {}
+[3.429959] (-) TimerEvent: {}
+[3.537399] (-) TimerEvent: {}
+[3.645390] (-) TimerEvent: {}
+[3.757973] (-) TimerEvent: {}
+[3.861254] (-) TimerEvent: {}
+[3.961788] (-) TimerEvent: {}
+[4.063981] (-) TimerEvent: {}
+[4.167964] (-) TimerEvent: {}
+[4.270971] (-) TimerEvent: {}
+[4.372634] (-) TimerEvent: {}
+[4.474795] (-) TimerEvent: {}
+[4.577991] (-) TimerEvent: {}
+[4.681800] (-) TimerEvent: {}
+[4.786207] (-) TimerEvent: {}
+[4.892135] (-) TimerEvent: {}
+[4.992982] (-) TimerEvent: {}
+[5.096946] (-) TimerEvent: {}
+[5.198246] (-) TimerEvent: {}
+[5.299207] (-) TimerEvent: {}
+[5.407966] (-) TimerEvent: {}
+[5.509972] (-) TimerEvent: {}
+[5.600132] (turtlebot3_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_controller', 'build', '--build-base', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/build', 'install', '--record', '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'LANGUAGE': 'ko:en', 'USER': 'ros25', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/ros25', 'OLDPWD': '/home/ros25', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1511', 'SYSTEMD_EXEC_PID': '1664', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2782', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros25/ROS/ROS_25/colcon_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ros25', 'JOURNAL_STREAM': '8:22338', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros25', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/ros25/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros25-virtual-machine:@/tmp/.ICE-unix/1640,unix/ros25-virtual-machine:/tmp/.ICE-unix/1640', 'INVOCATION_ID': 'eaca7fcd6f244a7084ce6ad979522080', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NJGA92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '215', 'AMENT_PREFIX_PATH': '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_simulations:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_machine_learning:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_fake_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:3b920b24-1d34-4bde-8fd9-55b4ee434605', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_dqn/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/test_node/lib/python3.10/site-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_simulations:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_bringup:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_machine_learning:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_fake_node:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_manipulation_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_gazebo:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_description:/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_cartographer:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_examples:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/ros25/ROS/ROS_25/colcon_ws/install/dynamixel_sdk'}, 'shell': False}
+[5.612096] (-) TimerEvent: {}
+[5.719973] (-) TimerEvent: {}
+[5.824970] (-) TimerEvent: {}
+[5.927962] (-) TimerEvent: {}
+[6.033199] (-) TimerEvent: {}
+[6.135001] (-) TimerEvent: {}
+[6.241505] (-) TimerEvent: {}
+[6.345626] (-) TimerEvent: {}
+[6.453918] (-) TimerEvent: {}
+[6.554593] (-) TimerEvent: {}
+[6.657118] (-) TimerEvent: {}
+[6.757988] (-) TimerEvent: {}
+[6.863974] (-) TimerEvent: {}
+[6.967962] (-) TimerEvent: {}
+[7.070920] (-) TimerEvent: {}
+[7.177499] (-) TimerEvent: {}
+[7.281138] (-) TimerEvent: {}
+[7.381654] (-) TimerEvent: {}
+[7.486025] (-) TimerEvent: {}
+[7.490048] (turtlebot3_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.495948] (turtlebot3_controller) StdoutLine: {'line': b'writing ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/PKG-INFO\n'}
+[7.497200] (turtlebot3_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/dependency_links.txt\n'}
+[7.507088] (turtlebot3_controller) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/entry_points.txt\n'}
+[7.507485] (turtlebot3_controller) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/requires.txt\n'}
+[7.517375] (turtlebot3_controller) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_controller/turtlebot3_controller.egg-info/top_level.txt\n'}
+[7.532235] (turtlebot3_controller) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'\n"}
+[7.550599] (turtlebot3_controller) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_controller/turtlebot3_controller.egg-info/SOURCES.txt'\n"}
+[7.551003] (turtlebot3_controller) StdoutLine: {'line': b'running build\n'}
+[7.551165] (turtlebot3_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.564992] (turtlebot3_controller) StdoutLine: {'line': b'running install\n'}
+[7.565368] (turtlebot3_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.578043] (turtlebot3_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.584083] (turtlebot3_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.590961] (-) TimerEvent: {}
+[7.607521] (turtlebot3_controller) StdoutLine: {'line': b"removing '/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.611253] (turtlebot3_controller) StdoutLine: {'line': b'Copying ../../build/turtlebot3_controller/turtlebot3_controller.egg-info to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller-0.0.0-py3.10.egg-info\n'}
+[7.621944] (turtlebot3_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.691971] (-) TimerEvent: {}
+[7.766274] (turtlebot3_controller) StdoutLine: {'line': b'Installing initial_pose_publisher script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.773991] (turtlebot3_controller) StdoutLine: {'line': b'Installing mission_manager script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.783001] (turtlebot3_controller) StdoutLine: {'line': b'Installing navigator script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.783384] (turtlebot3_controller) StdoutLine: {'line': b'Installing obstacle_avoider script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.783552] (turtlebot3_controller) StdoutLine: {'line': b'Installing patrol_manager script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.783680] (turtlebot3_controller) StdoutLine: {'line': b'Installing patrol_waypoints script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.796960] (turtlebot3_controller) StdoutLine: {'line': b'Installing scan_info_printer script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.797311] (-) TimerEvent: {}
+[7.797529] (turtlebot3_controller) StdoutLine: {'line': b'Installing sensor_listener script to /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/turtlebot3_controller\n'}
+[7.801933] (turtlebot3_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_controller/install.log'\n"}
+[7.897509] (-) TimerEvent: {}
+[8.003173] (-) TimerEvent: {}
+[8.004911] (turtlebot3_controller) CommandEnded: {'returncode': 0}
+[8.117196] (-) TimerEvent: {}
+[8.124124] (turtlebot3_controller) JobEnded: {'identifier': 'turtlebot3_controller', 'rc': 0}
+[8.125381] (-) EventReactorShutdown: {}
