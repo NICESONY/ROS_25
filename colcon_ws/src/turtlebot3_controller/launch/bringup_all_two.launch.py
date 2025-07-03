@@ -5,7 +5,8 @@ from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import (
     IncludeLaunchDescription,
-    DeclareLaunchArgument
+    DeclareLaunchArgument,
+    TimerAction
 )
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
@@ -54,6 +55,17 @@ def generate_launch_description():
             'y_pose':       spawn_y,
             'yaw':          spawn_yaw,
         }.items()
+    )
+
+    # ───────── 1.1) map → odom (Static TF) ─────────
+    static_map_to_odom = Node(
+        package='tf2_ros', executable='static_transform_publisher',
+        name='static_map_to_odom', output='screen',
+        arguments=[
+            spawn_x, spawn_y, '0.0',    # x, y, z
+            '0.0', '0.0', spawn_yaw,    # roll, pitch, yaw
+            'map', 'odom'
+        ]
     )
 
     # ───────── 2) base_link → base_scan (레이저 TF) ─────────
@@ -133,13 +145,15 @@ def generate_launch_description():
         declare_init_y,
         declare_init_yaw,
         gazebo_launch,
+        static_map_to_odom,        # ← 추가된 map→odom TF
         static_base_to_scan,
         initial_pose_publisher,
         nav2_launch,
         ctrl_node,
-        spawner_js,
-        spawner_dd,
-        patrol_manager,
+        # 스포너에 딜레이 적용
+        # TimerAction(period=1.5, actions=[spawner_js]),
+        # TimerAction(period=2.0, actions=[spawner_dd]),
+        # patrol_manager,
     ])
 
     return ld

@@ -20,6 +20,7 @@ launch/full_navigation.launch.py
 launch/mission.launch.py
 launch/mission_manager.launch.py
 launch/patrol_mission.launch.py
+launch/patrol_mission2.launch.py
 launch/rviz_test.launch.py
 launch/test_map_launch.py
 maps/__init__.py
