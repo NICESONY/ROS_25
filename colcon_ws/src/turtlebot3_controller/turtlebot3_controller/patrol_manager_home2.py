@@ -31,6 +31,7 @@ pose:
 
 """
 
+
 import math
 import rclpy
 from rclpy.node import Node
@@ -43,9 +44,17 @@ from action_msgs.msg import GoalStatus
 # ─────────── 원하는 Waypoint 리스트 ───────────
 WAYPOINTS = [
     {'x':  1.55, 'y': -0.07, 'yaw_deg': 0},
-    {'x': -2.73, 'y': -0.13, 'yaw_deg': 0},
+    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0},
+    {'x': -1.17, 'y': -1.55, 'yaw_deg': 0},
     {'x': -2.87, 'y': -1.70, 'yaw_deg': 0},
+    {'x': -1.17, 'y': -1.55, 'yaw_deg': 0},
+    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0},
+    {'x': -2.73, 'y': -0.13, 'yaw_deg': 0},
+    {'x': -1.84, 'y': -1.58, 'yaw_deg': 0},
+    {'x': -1.67, 'y': -3.14, 'yaw_deg': 0},
     {'x': -2.71, 'y': -3.02, 'yaw_deg': 0},
+    {'x': -1.67, 'y': -3.14, 'yaw_deg': 0},
+    {'x': -1.84, 'y': -1.58, 'yaw_deg': 0},
 ]
 # ────────────────────────────────────────────
 
