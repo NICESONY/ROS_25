@@ -1,5 +1,8 @@
+/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2_home2.launch.py
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/home2_map.yaml
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/home2_map.pgm
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
 /home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml

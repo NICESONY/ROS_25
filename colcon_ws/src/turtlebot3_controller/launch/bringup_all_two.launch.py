@@ -126,14 +126,14 @@ def generate_launch_description():
         output='screen'
     )
 
-    # ───────── 6) PatrolManager (미션 매니저) ─────────
-    patrol_manager = Node(
-        package='turtlebot3_controller',
-        executable='patrol_manager',
-        name='patrol_manager',
-        output='screen',
-        parameters=[{'use_sim_time': use_sim_time}],
-    )
+    # # ───────── 6) PatrolManager (미션 매니저) ─────────
+    # patrol_manager = Node(
+    #     package='turtlebot3_controller',
+    #     executable='patrol_manager',
+    #     name='patrol_manager',
+    #     output='screen',
+    #     parameters=[{'use_sim_time': use_sim_time}],
+    # )
 
     # ───────── LaunchDescription 조립 ─────────
     ld = LaunchDescription([

@@ -52,6 +52,7 @@ turtlebot3_controller/mission_manager.py
 turtlebot3_controller/navigator.py
 turtlebot3_controller/obstacle_avoider.py
 turtlebot3_controller/patrol_manager.py
+turtlebot3_controller/patrol_manager_home2.py
 turtlebot3_controller/patrol_waypoints.py
 turtlebot3_controller/scan_info_printer.py
 turtlebot3_controller/sensor_listener.py

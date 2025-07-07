@@ -53,6 +53,7 @@ setup(
             'patrol_waypoints = turtlebot3_controller.patrol_waypoints:main',
             'scan_info_printer = turtlebot3_controller.scan_info_printer:main',
             'initial_pose_publisher = turtlebot3_controller.initial_pose_publisher:main',
+            'patrol_manager_home2 = turtlebot3_controller.patrol_manager_home2:main',
         ],
     },
 )
