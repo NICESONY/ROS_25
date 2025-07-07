@@ -13,4 +13,4 @@ colcon_ws/src/DynamixelSDK/
 
 colcon_ws/src/install/
 colcon_ws/src/build/
-colcon_ws/src/logs/
+colcon_ws/src/log/
