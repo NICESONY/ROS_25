@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces
+CMAKE_SOURCE_DIR = /home/samson/turtlebot3/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces
+CMAKE_BINARY_DIR = /home/samson/turtlebot3/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces /home/ros25/ROS/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces /home/ros25/ROS/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samson/turtlebot3/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samson/turtlebot3/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces /home/samson/turtlebot3/ROS_25/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces /home/samson/turtlebot3/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces /home/samson/turtlebot3/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces /home/samson/turtlebot3/ROS_25/colcon_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o: \
- /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/traffic_light_plugin.cpp \
+ /home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/traffic_light_plugin.cpp \
  /usr/include/stdc-predef.h \
- /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/traffic_light_plugin.hpp \
+ /home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/traffic_light_plugin.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_description
+CMAKE_SOURCE_DIR = /home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description
+CMAKE_BINARY_DIR = /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_description
 
 # Utility rule file for turtlebot3_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/turtlebot3_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/turtlebot3_description_uninstall.dir/progress.make
 
 CMakeFiles/turtlebot3_description_uninstall:
-	/usr/bin/cmake -P /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 turtlebot3_description_uninstall: CMakeFiles/turtlebot3_description_uninstall
 turtlebot3_description_uninstall: CMakeFiles/turtlebot3_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/turtlebot3_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/turtlebot3_description_uninstall.dir/clean
 
 CMakeFiles/turtlebot3_description_uninstall.dir/depend:
-	cd /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_description /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_description /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_description/CMakeFiles/turtlebot3_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_description /home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3/turtlebot3_description /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_description /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_description /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_description/CMakeFiles/turtlebot3_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot3_description_uninstall.dir/depend
 

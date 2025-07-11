@@ -7,7 +7,7 @@
 module turtlebot3_msgs {
   module action {
     @verbatim (language="comment", text=
-      "Define the goal")
+      "Define the goal  ")
     struct Patrol_Goal {
       geometry_msgs::msg::Vector3 goal;
     };

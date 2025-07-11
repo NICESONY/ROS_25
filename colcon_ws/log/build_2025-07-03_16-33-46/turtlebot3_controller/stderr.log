@@ -1,5 +1,0 @@
-  File "/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_controller/lib/python3.10/site-packages/turtlebot3_controller/patrol_manager.py", line 42
-    f"y={self.current_pose.position.y:.2f}, yaw≈{math.atan2(2*(self.current_pose.orientation.w*self.current_pose.orientation.z),
-    ^
-SyntaxError: unterminated string literal (detected at line 42)
-

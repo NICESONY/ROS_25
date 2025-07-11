@@ -14,8 +14,6 @@
 * limitations under the License.
 *******************************************************************************/
 
-
-
 /* Author: zerom, Ryu Woon Jung (Leon) */
 
 #include <stdio.h>

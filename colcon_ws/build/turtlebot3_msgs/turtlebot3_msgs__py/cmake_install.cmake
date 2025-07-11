@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_msgs/turtlebot3_msgs__py
+# Install script for directory: /home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_msgs/turtlebot3_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/samson/turtlebot3/ROS_25/colcon_ws/install/turtlebot3_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

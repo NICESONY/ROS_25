@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_machine_learning/turtlebot3_machine_learning
+# Install script for directory: /home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3_machine_learning/turtlebot3_machine_learning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros25/ROS/ROS_25/colcon_ws/install/turtlebot3_machine_learning")
+  set(CMAKE_INSTALL_PREFIX "/home/samson/turtlebot3/ROS_25/colcon_ws/install/turtlebot3_machine_learning")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_machine_learning")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_machine_learning")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_machine_learning")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_machine_learning")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning/environment" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning/environment" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,42 +63,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning/environment" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning/environment" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_machine_learning")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_machine_learning")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning/cmake" TYPE FILE FILES
-    "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_core/turtlebot3_machine_learningConfig.cmake"
-    "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_core/turtlebot3_machine_learningConfig-version.cmake"
+    "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_core/turtlebot3_machine_learningConfig.cmake"
+    "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/ament_cmake_core/turtlebot3_machine_learningConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/ros25/ROS/ROS_25/colcon_ws/src/turtlebot3_machine_learning/turtlebot3_machine_learning/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_machine_learning" TYPE FILE FILES "/home/samson/turtlebot3/ROS_25/colcon_ws/src/turtlebot3_machine_learning/turtlebot3_machine_learning/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -109,5 +109,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ros25/ROS/ROS_25/colcon_ws/build/turtlebot3_machine_learning/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/samson/turtlebot3/ROS_25/colcon_ws/build/turtlebot3_machine_learning/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
