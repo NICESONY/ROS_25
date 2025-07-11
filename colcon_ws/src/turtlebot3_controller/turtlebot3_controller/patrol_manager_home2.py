@@ -14,7 +14,6 @@ ros2 launch turtlebot3_gazebo turtlebot3_home2.launch.py use_sim_time:=True
 
 ros2 launch turtlebot3_gazebo turtlebot3_home2.launch.py use_sim_time:=True
 
-
 ros2 run turtlebot3_controller patrol_manager_home2
 
 
@@ -42,7 +41,7 @@ from geometry_msgs.msg import (
 from nav2_msgs.action import NavigateToPose
 from action_msgs.msg import GoalStatus
 
-# ─────────── 원하는 Waypoint 리스트 ───────────
+#  원하는 Waypoint 리스트 
 WAYPOINTS = [
     {'x':  1.55, 'y': -0.07, 'yaw_deg': 0},
     {'x': -0.87, 'y': -1.55, 'yaw_deg': 0},
@@ -50,20 +49,18 @@ WAYPOINTS = [
     {'x': -2.87, 'y': -1.70, 'yaw_deg': 0},
     {'x': -1.17, 'y': -1.55, 'yaw_deg': 0},
     {'x': -0.87, 'y': -1.55, 'yaw_deg': 0},
-    {'x': -2.73, 'y': -0.13, 'yaw_deg': 0},
     {'x': -1.84, 'y': -1.58, 'yaw_deg': 0},
     {'x': -1.67, 'y': -3.14, 'yaw_deg': 0},
     {'x': -2.71, 'y': -3.02, 'yaw_deg': 0},
     {'x': -1.67, 'y': -3.14, 'yaw_deg': 0},
     {'x': -1.84, 'y': -1.58, 'yaw_deg': 0},
 ]
-# ────────────────────────────────────────────
-
-# ─────────── AMCL 초기 위치 (하드코딩) ───────────
+# 
+#  AMCL 초기 위치 (하드코딩) 
 INIT_X   = 0.10     # [m]
 INIT_Y   = 0.00     # [m]
 INIT_YAW = 0.0      # [rad]
-# ─────────────────────────────────────────────
+# 
 
 def quat_from_yaw(yaw_rad: float) -> Quaternion:
     """yaw(rad) → Quaternion(z, w 값만 사용)"""
@@ -105,7 +102,7 @@ class PatrolNode(Node):
         # 0.5 s 주기 메인 루프
         self.create_timer(0.5, self.main_loop)
 
-    # ───── 초기 pose 발행 후 타이머 취소 ─────
+    #  초기 pose 발행 후 타이머 취소 
     def publish_initial_pose(self):
         msg = PoseWithCovarianceStamped()
         msg.header.frame_id = 'map'
@@ -126,17 +123,17 @@ class PatrolNode(Node):
         self.get_logger().info('📍 초기 pose 발행 완료')
         self.once_timer.cancel()          # 더 이상 필요 없는 타이머 중지
 
-    # ───── AMCL pose 콜백 ─────
+    #  AMCL pose 콜백 
     def pose_cb(self, msg: PoseWithCovarianceStamped):
         self.current_pose = msg.pose.pose
 
-    # ───── 메인 루프 ─────
+    #  메인 루프 
     def main_loop(self):
         if self.goal_active or self.current_pose is None:
             return
         self.send_wp_goal()
 
-    # ───── 목표 전송 ─────
+    #  목표 전송 
     def send_wp_goal(self):
         wp = WAYPOINTS[self.wp_idx]
         yaw_rad = math.radians(wp['yaw_deg'])
@@ -156,10 +153,10 @@ class PatrolNode(Node):
             f"(x={wp['x']:.2f}, y={wp['y']:.2f}, yaw={wp['yaw_deg']}°)")
         self.goal_active = True
 
-        self.nav_client.send_goal_async(goal_msg) \
-            .add_done_callback(self.goal_resp_cb)
+        self.nav_client.send_goal_async(goal_msg).add_done_callback(self.goal_resp_cb)
 
-    # ───── 액션 서버 응답 ─────
+
+    #  액션 서버 응답 
     def goal_resp_cb(self, future):
         goal_handle = future.result()
         if not goal_handle.accepted:
@@ -168,10 +165,10 @@ class PatrolNode(Node):
             return
         goal_handle.get_result_async().add_done_callback(self.result_cb)
 
-    # ───── 결과 ─────
+    #  결과 
     def result_cb(self, future):
         status = future.result().status
-        if status == GoalStatus.STATUS_SUCCEEDED:
+        if status == GoalStatus.STATUS_SUCCEEDED :
             self.get_logger().info(f"✓ Waypoint {self.wp_idx} 도착")
         else:
             self.get_logger().warn(
