@@ -12,7 +12,7 @@ termianl commad
 
 ros2 launch turtlebot3_gazebo turtlebot3_home2.launch.py use_sim_time:=True
 
-ros2 launch turtlebot3_gazebo turtlebot3_home2.launch.py use_sim_time:=True
+ros2 launch turtlebot3_navigation2 navigation2_home2.launch.py
 
 ros2 run turtlebot3_controller patrol_manager_home2
 
@@ -43,17 +43,20 @@ from action_msgs.msg import GoalStatus
 
 #  원하는 Waypoint 리스트 
 WAYPOINTS = [
-    {'x':  1.55, 'y': -0.07, 'yaw_deg': 0},
-    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0},
-    {'x': -1.17, 'y': -1.55, 'yaw_deg': 0},
-    {'x': -2.87, 'y': -1.70, 'yaw_deg': 0},
-    {'x': -1.17, 'y': -1.55, 'yaw_deg': 0},
-    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0},
-    {'x': -1.84, 'y': -1.58, 'yaw_deg': 0},
-    {'x': -1.67, 'y': -3.14, 'yaw_deg': 0},
-    {'x': -2.71, 'y': -3.02, 'yaw_deg': 0},
-    {'x': -1.67, 'y': -3.14, 'yaw_deg': 0},
-    {'x': -1.84, 'y': -1.58, 'yaw_deg': 0},
+    {'x':  1.55, 'y': -0.07, 'yaw_deg': 0}, # 1
+    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0}, # 2
+    {'x': -2.87, 'y': -1.70, 'yaw_deg': 0}, # 4
+    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0}, # 2
+    {'x': -1.18, 'y': -0.38, 'yaw_deg': 0}, # 7
+    {'x': -2.66, 'y': -0.16, 'yaw_deg': 0}, # 8
+    {'x': -1.18, 'y': -0.38, 'yaw_deg': 0}, # 7
+    {'x': -0.87, 'y': -1.55, 'yaw_deg': 0}, # 2
+    {'x':  1.66, 'y': -1.60, 'yaw_deg': 0}, # 9
+    {'x':  1.67, 'y': -3.04, 'yaw_deg': 0}, # 10
+    {'x': -2.84, 'y': -3.00, 'yaw_deg': 0}, # 11
+    {'x':  1.67, 'y': -3.04, 'yaw_deg': 0}, # 10
+    {'x':  1.66, 'y': -1.60, 'yaw_deg': 0}, # 9
+    {'x':  0.26, 'y': -1.53, 'yaw_deg': 0}, # 9
 ]
 # 
 #  AMCL 초기 위치 (하드코딩) 
